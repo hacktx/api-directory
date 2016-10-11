@@ -1,0 +1,36 @@
+{% import "search.html" as search %}
+{% extends "base.html" %}
+{% block title %}HackTX API Directory{% endblock %}
+{% block header %}
+<div class="section freetail-blue">
+  <div class="container">
+    <h1 class="tan-text center-align">
+      HackTX API Directory
+    </h1>
+    {{ search.searchbar() }}
+  </div>
+</div>
+{% endblock %}
+{% block content %}
+<div class="section">
+  <div class="container">
+    <div class="row">
+      {% for company, data in companies.items() %}
+      <div class="col s12 m6" id="{{ company }}">
+        <div cLass="card small hoverable">
+          <div class="center api-img-wrapper">
+            <img src="{{ data.image }}" class="api-img">
+          </div>
+          <div class="card-content truncate">
+            {{ data.description }}
+          </div>
+          <div class="card-action">
+            <a href="{{ url_for('api_page', name=company) }}">More Info</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endblock %}

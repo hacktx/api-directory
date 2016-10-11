@@ -44,8 +44,30 @@ main {
     background-color: $hacktx-red;
 }
 
-.api-img {
+.api-img-wrapper {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .api-img {
+        max-height: 200px;
+        max-width: 250px;
+        height: auto;
+        width: auto;
+    }
+}
+
+.api-page-img {
     max-height: 200px;
+    max-width: 80%;
     height: auto;
     width: auto;
+}
+
+.search-nav {
+    width: 40%;
+}
+
+nav > div > .logo-link {
+    padding-left: 10px;
 }

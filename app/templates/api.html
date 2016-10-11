@@ -1,0 +1,26 @@
+{% import "search.html" as search %}
+{% extends "base.html" %}
+{% block title %}{{ name }}{% endblock %}
+{% block header %}
+<nav class="freetail-blue">
+  <div class="nav-wrapper">
+    <a href="{{ url_for('index_page') }}" class="logo-link brand-logo">HackTX API Directory</a>
+    {{ search.searchbar(class='search-nav right') }}
+  </div>
+</nav>
+{% endblock %}
+{% block content %}
+<div class="section">
+  <div class="container tan-text">
+    <!-- <img src="{{ data.image }}" class="api-page-img center"> -->
+    <h1 class="center">
+      {{ name }}
+    </h1>
+    <div class="divider"></div>
+    <h3>Description</h3>
+    <p>
+    {{ data.description }}
+    </p>
+  </div>
+</div>
+{% endblock %}
