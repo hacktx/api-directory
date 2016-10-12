@@ -75,7 +75,7 @@ nav > div > .logo-link {
     padding-left: 10px;
 }
 
-.chip {
+.keyword-chip {
     cursor: pointer;
 }
 
@@ -89,4 +89,10 @@ a.website-link {
     &:visited {
         @extend .yellow-text, .text-darken-2;
     }
+}
+
+.card-links {
+    float: left;
+    max-width: calc(100% - 210px);
+    line-height: 2em;
 }

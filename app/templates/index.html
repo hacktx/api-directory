@@ -35,11 +35,15 @@
             </p>
           </div>
           <div class="card-action">
-            <a href="{{ url_for('api_page', name=company) }}">More Info</a>
-            <a href="{{ data.link }}">Visit Website</a>
-            {% for keyword in data.chip_keywords %}
-            <div class="chip right">{{ keyword }}</div>
-            {% endfor %}
+            <div class="card-links">
+              <a href="{{ url_for('api_page', name=company) }}">More Info</a>
+              <a href="{{ data.link }}">Visit Website</a>
+            </div>
+            <div class="right">
+              {% for keyword in data.chip_keywords %}
+              <div class="chip keyword-chip">{{ keyword }}</div>
+              {% endfor %}
+            </div>
           </div>
         </div>
       </div>
