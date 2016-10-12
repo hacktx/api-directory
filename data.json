@@ -7,7 +7,7 @@
         "data"
       ], 
       "description": "The Bloomberg API (BLPAPI) is a set of freely available software development kits (SDKs) that allow software developers to create applications that consume market data. The BLPAPI interface powers global market data distribution to desktops, workgroups and enterprise applications and is used daily by more than 100,000 Bloomberg customers.", 
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Bloomberg_logo.svg/1000px-Bloomberg_logo.svg.png", 
+      "image": "https://d2yfjuwuxpsnjc.cloudfront.net/getasset/0bb55105-744b-4765-9de7-c5c0003f7a1f/", 
       "keywords": [
         "finance", 
         "financial", 
@@ -38,7 +38,7 @@
         "java", 
         "hadoop"
       ], 
-      "description": "Elastic is a search API.", 
+      "description": "Elastic believes getting immediate, actionable insight from data matters. As the company behind the open source projects \u2014 Elasticsearch, Logstash, Kibana, and Beats \u2014 designed to take data from any source and search, analyze, and visualize it in real time, Elastic is helping people make sense of data. From stock quotes to Twitter streams, Apache logs to WordPress blogs, our products are extending what's possible with data, delivering on the promise that good things come from connecting the dots.", 
       "image": "https://static-www.elastic.co/assets/blt45b0886c90beceee/logo-elastic.svg?q=247", 
       "keywords": [
         "search", 
