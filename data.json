@@ -1,0 +1,29 @@
+{
+    "companies": {
+        "Bloomberg": {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Bloomberg_logo.svg/1000px-Bloomberg_logo.svg.png",
+            "description": "The Bloomberg API (BLPAPI) is a set of freely available software development kits (SDKs) that allow software developers to create applications that consume market data. The BLPAPI interface powers global market data distribution to desktops, workgroups and enterprise applications and is used daily by more than 100,000 Bloomberg customers.",
+            "link": "https://www.bloomberglabs.com/api/",
+            "usage": {
+                "Java": "System.out.println(\"Hello World!\");",
+                "C++": "cout << \"Hello World!\" << endl;",
+                "C": "printf(\"Hello World!\\n\");",
+                "C#": "System.Console.WriteLine(\"Hello World!\");",
+                "Perl": "print \"Hello World!\\n\";",
+                "Python": "print \"Hello World!\""
+            },
+            "keywords": ["finance", "financial", "java", "c++", "c#", "perl", "python", "c", ".net", "big", "data", "market"],
+            "chip_keywords": ["finance", "python", "data"]
+        },
+        "Elastic": {
+            "image": "https://static-www.elastic.co/assets/blt45b0886c90beceee/logo-elastic.svg?q=247",
+            "description": "Elastic is a search API.",
+            "link": "https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/index.html",
+            "usage": {
+                "Java": "System.out.println(\"Search :+1\");"
+            },
+            "keywords": ["search", "elasticsearch", "java", "hadoop"],
+            "chip_keywords": ["search", "java", "hadoop"]
+        }
+    }
+}

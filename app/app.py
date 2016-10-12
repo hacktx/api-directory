@@ -3,6 +3,9 @@ from flask import render_template
 import json
 
 app = Flask(__name__)
+# set up freezer config
+app.config.from_pyfile('settings.py')
+# read json data
 raw_json = open('data.json', 'r').read()
 data = json.loads(raw_json)
 
