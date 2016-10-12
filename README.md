@@ -9,4 +9,8 @@ virtualenv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
-Then, edit ```data.json``` as you please.
+Then, edit ```app/data.json``` as you please. When you are done, run
+```bash
+cd app
+python freezer.py
+```
