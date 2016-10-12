@@ -17,7 +17,7 @@ if (sessionStorage.getItem("done")) {
     $loadJSONPromise = $.Deferred().resolve();
 } else {
     sessionStorage.clear();
-    $loadJSONPromise = $.getJSON("/data.json", function(data) {
+    $loadJSONPromise = $.getJSON("data.json", function(data) {
         if (data.hasOwnProperty('companies')) {
             $.each(data.companies, function(name, values) {
                 put(name.toLowerCase(), name.toLowerCase());
