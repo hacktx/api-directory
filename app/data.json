@@ -20,7 +20,7 @@
             "description": "Elastic is a search API.",
             "link": "https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/index.html",
             "usage": {
-                "Java": "System.out.println(\"Search :+1\");"
+                "Java": "System.out.println(\"Search :+1:\");"
             },
             "keywords": ["search", "elasticsearch", "java", "hadoop"],
             "chip_keywords": ["search", "java", "hadoop"]

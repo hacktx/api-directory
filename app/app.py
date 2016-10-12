@@ -1,4 +1,6 @@
 from flask import Flask
+from flask import jsonify
+from flask import make_response
 from flask import render_template
 import json
 
@@ -6,8 +8,7 @@ app = Flask(__name__)
 # set up freezer config
 app.config.from_pyfile('settings.py')
 # read json data
-raw_json = open('data.json', 'r').read()
-data = json.loads(raw_json)
+data = json.loads(open('data.json', 'r').read())
 
 @app.route('/')
 def index_page():
@@ -15,9 +16,9 @@ def index_page():
 
 @app.route('/data.json')
 def data_json():
-    return raw_json
+    return jsonify(data)
 
-@app.route('/api/<name>')
+@app.route('/api/<name>.html')
 def api_page(name=None):
     if name is None:
         return render_template('index.html')
