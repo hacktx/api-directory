@@ -74,13 +74,22 @@ $(document).ready(function() {
                 element.addClass('hide');
             }
         });
-        if (apiSet && apiSet.size === 0) {
+        // add query to the search field in case it came in from a GET request
+        $('#search').val(query);
+        if (query && (!apiSet || apiSet.size === 0)) {
             $('#search').addClass('invalid');
             Materialize.toast('Could not find any results!', 4000, 'light-red');
         } else {
             $('#search').removeClass('invalid');
         }
     }
+
+    // set chip click actions to redirect to search
+    $('.chip').click(function(e) {
+        console.log(window.location);
+        console.log(window.location.href);
+        window.location.href = window.location.href.split("?")[0] + "?query=" + $(this).text();
+    });
 
     $loadJSONPromise.done(function() {
         var parsedQuery = parseQuery(query);

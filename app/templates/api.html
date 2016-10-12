@@ -1,6 +1,9 @@
 {% import "search.html" as search %}
 {% extends "base.html" %}
 {% block title %}{{ name }}{% endblock %}
+{% block scripts %}
+<script type="text/javascript" src="{{ url_for('static', filename='js/searchbox.js') }}"></script>
+{% endblock %}
 {% block header %}
 <nav class="freetail-blue">
   <div class="nav-wrapper">
