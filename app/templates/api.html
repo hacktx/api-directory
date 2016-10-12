@@ -2,6 +2,9 @@
 {% extends "base.html" %}
 {% block title %}{{ name }}{% endblock %}
 {% block scripts %}
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/vs.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 <script type="text/javascript" src="{{ url_for('static', filename='js/searchbox.js') }}"></script>
 {% endblock %}
 {% block header %}
@@ -19,13 +22,21 @@
   <div class="container tan-text">
     <!-- <img src="{{ data.image }}" class="api-page-img center"> -->
     <h1 class="center">
-      {{ name }}
+      <a href="{{ data.link }}" class="tan-text">{{ name }}</a>
     </h1>
     <div class="divider"></div>
     <h3>Description</h3>
     <p>
     {{ data.description }}
     </p>
+    <div class="divider"></div>
+    <h3>How to Use</h3>
+    <p>Visit their website at <a class="yellow-text website-link" href="{{ data.link }}">{{ data.link }}</a> to learn more.</p>
+    {% for lang, example in data.usage.items() %}
+    <div class="divider"></div>
+    <h4>{{ lang }}</h3>
+    <pre class="{{ lang.lower() }}"><code>{{ example }}</code></pre>
+    {% endfor %}
   </div>
 </div>
 {% endblock %}

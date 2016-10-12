@@ -1,5 +1,6 @@
 // to compile: sass --watch static/sass:static/css --style compressed --sourcemap=none
 
+@import "components/color";
 // variables
 $freetail-blue: #124E78;
 $freetail-red: #E45243;
@@ -82,4 +83,12 @@ nav > div > .logo-link {
 
 #close-button {
     top: 7.5px;
+}
+
+a.website-link {
+    text-decoration: underline;
+
+    &:visited {
+        @extend .yellow-text, .text-darken-2;
+    }
 }
