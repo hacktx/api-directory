@@ -1,5 +1,7 @@
+{% macro searchbar(id=false) %}
 <div class="input-field search-div">
   <input name="query" id="search" class="white-text" type="search" required>
   <label for="search"><i class="material-icons">search</i></label>
-  <i class="material-icons">close</i>
+  <i class="material-icons"{% if id %}id="close-button"{% endif %}>close</i>
 </div>
+{% endmacro %}

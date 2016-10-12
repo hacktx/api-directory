@@ -9,7 +9,7 @@
   <div class="nav-wrapper">
     <a href="{{ url_for('index_page') }}" class="logo-link brand-logo">HackTX API Directory</a>
     <form action="/" class="search-nav right">
-      {% include "search.html" %}
+      {{ search.searchbar() }}
     </form>
   </div>
 </nav>
