@@ -1,13 +1,20 @@
 {% import "search.html" as search %}
 {% extends "base.html" %}
 {% block title %}HackTX API Directory{% endblock %}
+{% block scripts %}
+<script type="text/javascript" src="{{ url_for('static', filename='js/velocity.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/hammer.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/global.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/toasts.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/search.js') }}"></script>
+{% endblock %}
 {% block header %}
 <div class="section freetail-blue">
   <div class="container">
     <h1 class="tan-text center-align">
       HackTX API Directory
     </h1>
-    {{ search.searchbar() }}
+    {% include "search.html" %}
   </div>
 </div>
 {% endblock %}
@@ -16,8 +23,8 @@
   <div class="container">
     <div class="row">
       {% for company, data in companies.items() %}
-      <div class="col s12 m6" id="{{ company }}">
-        <div cLass="card small hoverable">
+      <div class="col s12 m6 api-card-div" id="{{ company.lower() }}">
+        <div class="card small hoverable">
           <div class="center api-img-wrapper">
             <img src="{{ data.image }}" class="api-img">
           </div>

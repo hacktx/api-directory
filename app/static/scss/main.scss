@@ -41,7 +41,11 @@ main {
 }
 
 .red {
-    background-color: $hacktx-red;
+    background-color: $hacktx-red !important;
+}
+
+.gray {
+    background-color: $hacktx-gray !important;
 }
 
 .api-img-wrapper {

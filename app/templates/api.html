@@ -5,7 +5,9 @@
 <nav class="freetail-blue">
   <div class="nav-wrapper">
     <a href="{{ url_for('index_page') }}" class="logo-link brand-logo">HackTX API Directory</a>
-    {{ search.searchbar(class='search-nav right') }}
+    <form action="/" class="search-nav right">
+      {% include "search.html" %}
+    </form>
   </div>
 </nav>
 {% endblock %}
