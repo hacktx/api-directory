@@ -22,4 +22,4 @@ def data_json():
 def api_page(name=None):
     if name is None:
         return render_template('index.html')
-    return render_template('api.html', name=name, data=data['companies'][name])
+    return render_template('api.html', data=data['companies'][name])

@@ -1,6 +1,6 @@
 {
   "companies": {
-    "Bloomberg": {
+    "bloomberg": {
       "chip_keywords": [
         "finance", 
         "python", 
@@ -23,6 +23,7 @@
         "market"
       ], 
       "link": "https://www.bloomberglabs.com/api/", 
+      "name": "Bloomberg", 
       "usage": {
         "C": "printf(\"Hello World!\\n\");", 
         "C#": "System.Console.WriteLine(\"Hello World!\");", 
@@ -32,7 +33,7 @@
         "Python": "print \"Hello World!\""
       }
     }, 
-    "Elastic": {
+    "elastic": {
       "chip_keywords": [
         "search", 
         "java", 
@@ -47,6 +48,7 @@
         "hadoop"
       ], 
       "link": "https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/index.html", 
+      "name": "Elastic", 
       "usage": {
         "Java": "System.out.println(\"Search :+1:\");"
       }

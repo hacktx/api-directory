@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}{{ name }}{% endblock %}
+{% block title %}{{ data.name }}{% endblock %}
 {% block scripts %}
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/vs.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
@@ -22,7 +22,7 @@
   <div class="container tan-text">
     <!-- <img src="{{ data.image }}" class="api-page-img center"> -->
     <h1 class="center">
-      <a href="{{ data.link }}" class="tan-text">{{ name }}</a>
+      <a href="{{ data.link }}" class="tan-text">{{ data.name }}</a>
     </h1>
     <div class="divider"></div>
     <h3>Description</h3>
