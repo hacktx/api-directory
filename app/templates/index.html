@@ -27,10 +27,10 @@
       <div class="col s12 m6 api-card-div" id="{{ company.lower() }}">
         <div class="card small hoverable">
           <div class="center api-img-wrapper">
-            <img src="{{ data.image }}" class="api-img">
+            <img src="{{ url_for('static', filename='img/partners/' + data.image) }}" class="api-img">
           </div>
           <div class="card-content">
-            <p class="truncate">
+            <p class="block-with-text">
             {{ data.description }}
             </p>
           </div>

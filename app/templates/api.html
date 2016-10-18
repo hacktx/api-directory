@@ -32,11 +32,13 @@
     <div class="divider"></div>
     <h3>How to Use</h3>
     <p>Visit their website at <a class="yellow-text website-link" href="{{ data.link }}">{{ data.link }}</a> to learn more.</p>
+    {% if data.usage %}
     {% for lang, example in data.usage.items() %}
     <div class="divider"></div>
     <h4>{{ lang }}</h3>
     <pre class="{{ lang.lower() }}"><code>{{ example }}</code></pre>
     {% endfor %}
+    {% endif %}
   </div>
 </div>
 {% endblock %}

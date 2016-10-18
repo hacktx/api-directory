@@ -3,11 +3,11 @@
     "bloomberg": {
       "chip_keywords": [
         "finance", 
-        "python", 
+        "Python", 
         "data"
       ], 
       "description": "The Bloomberg API (BLPAPI) is a set of freely available software development kits (SDKs) that allow software developers to create applications that consume market data. The BLPAPI interface powers global market data distribution to desktops, workgroups and enterprise applications and is used daily by more than 100,000 Bloomberg customers.", 
-      "image": "https://d2yfjuwuxpsnjc.cloudfront.net/getasset/0bb55105-744b-4765-9de7-c5c0003f7a1f/", 
+      "image": "bloomberg.png", 
       "keywords": [
         "finance", 
         "financial", 
@@ -33,14 +33,45 @@
         "Python": "print \"Hello World!\""
       }
     }, 
+    "capitalone": {
+      "chip_keywords": [
+        "REST", 
+        "banking", 
+        "jQuery"
+      ], 
+      "description": "Nessie is Capital One\u2019s Hackathon API that gives you access to a multitude of real public-facing data - such as ATM and bank branch locations - along with mock customer account data. Use HTTP requests to set up peer-to-peer transactions, simulate a weekly paycheck, or even schedule bills for customers! This is all structured in a way that resembles how we actually run things here at Capital One.", 
+      "image": "capital-one.png", 
+      "keywords": [
+        "finance", 
+        "financial", 
+        "banking", 
+        "data", 
+        "rest", 
+        "atm", 
+        "bank", 
+        "account", 
+        "transaction", 
+        "transactions", 
+        "bills", 
+        "nessie", 
+        "ios", 
+        "android", 
+        "ruby", 
+        "gem", 
+        "javascript", 
+        "jquery"
+      ], 
+      "link": "http://api.reimaginebanking.com/", 
+      "name": "Capital One"
+    }, 
     "elastic": {
       "chip_keywords": [
         "search", 
-        "java", 
-        "hadoop"
+        "Java", 
+        "Hadoop"
       ], 
       "description": "Elastic believes getting immediate, actionable insight from data matters. As the company behind the open source projects \u2014 Elasticsearch, Logstash, Kibana, and Beats \u2014 designed to take data from any source and search, analyze, and visualize it in real time, Elastic is helping people make sense of data. From stock quotes to Twitter streams, Apache logs to WordPress blogs, our products are extending what's possible with data, delivering on the promise that good things come from connecting the dots.", 
-      "image": "https://static-www.elastic.co/assets/blt45b0886c90beceee/logo-elastic.svg?q=247", 
+      "image": "elastic.png", 
       "keywords": [
         "search", 
         "elasticsearch", 
