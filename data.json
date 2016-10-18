@@ -46,7 +46,6 @@
         "financial", 
         "banking", 
         "data", 
-        "rest", 
         "atm", 
         "bank", 
         "account", 
@@ -59,6 +58,8 @@
         "ruby", 
         "gem", 
         "javascript", 
+        "rest", 
+        "restful", 
         "jquery"
       ], 
       "link": "http://api.reimaginebanking.com/", 

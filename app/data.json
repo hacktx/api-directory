@@ -32,7 +32,7 @@
             "image": "capital-one.png",
             "description": "Nessie is Capital One’s Hackathon API that gives you access to a multitude of real public-facing data - such as ATM and bank branch locations - along with mock customer account data. Use HTTP requests to set up peer-to-peer transactions, simulate a weekly paycheck, or even schedule bills for customers! This is all structured in a way that resembles how we actually run things here at Capital One.",
             "link": "http://api.reimaginebanking.com/",
-            "keywords": ["finance", "financial", "banking", "data", "rest", "atm", "bank", "account", "transaction", "transactions", "bills", "nessie", "ios", "android", "ruby", "gem", "javascript", "jquery"],
+            "keywords": ["finance", "financial", "banking", "data", "atm", "bank", "account", "transaction", "transactions", "bills", "nessie", "ios", "android", "ruby", "gem", "javascript", "rest", "restful", "jquery"],
             "chip_keywords": ["REST", "banking", "jQuery"]
         }
     }
