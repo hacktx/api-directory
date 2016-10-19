@@ -26,4 +26,5 @@ FREEZER_DESTINATION_IGNORE = [
     'app/',
     '.git*',
     'LICENSE',
+    'CNAME',
     'README.md']
