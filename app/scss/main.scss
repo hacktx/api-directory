@@ -127,8 +127,42 @@ a.website-link {
     }
 }
 
-.card-links {
-    float: left;
-    max-width: calc(100% - 210px);
-    line-height: 2em;
+
+.card-action {
+    text-align: center;
+
+    >div {
+        display: inline-block;
+    }
+
+    .card-links {
+        margin-bottom: 20px;
+        display: inline-block;
+
+        a {
+            text-align: center;
+
+            &:last-child {
+                margin-right: 0 !important;
+            }
+        }
+    }
+}
+
+@media (min-width: 1360px), (min-width: 500px) and (max-width: 993px) {
+    .card-action {
+        >div {
+            display: block;
+        }
+
+        .card-links {
+            float: left;
+            margin-bottom: 0;
+            margin-top: 5px;
+        }
+
+        .chip-links {
+            float: right;
+        }
+    }
 }

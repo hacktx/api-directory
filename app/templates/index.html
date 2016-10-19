@@ -24,7 +24,7 @@
   <div class="container">
     <div class="row">
       {% for company, data in companies.items() %}
-      <div class="col s12 m6 api-card-div" id="{{ company.lower() }}">
+      <div class="col s12 l6 api-card-div" id="{{ company.lower() }}">
         <div class="card small hoverable">
           <div class="center api-img-wrapper">
             <img src="{{ url_for('static', filename='img/partners/' + data.image) }}" class="api-img">
@@ -39,7 +39,7 @@
               <a href="{{ url_for('api_page', name=company) }}">More Info</a>
               <a href="{{ data.link }}">Visit Website</a>
             </div>
-            <div class="right">
+            <div class="chip-links">
               {% for keyword in data.chip_keywords %}
               <div class="chip keyword-chip">{{ keyword }}</div>
               {% endfor %}
