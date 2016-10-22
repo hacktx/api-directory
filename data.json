@@ -345,40 +345,6 @@
         "Best Hack that Teams Really Need to Keep Building on Post Weekend": "Three $1000 grants"
       }
     }, 
-    "amazon": {
-      "chip_keywords": [
-        "AWS", 
-        "API Prize", 
-        "hard drives"
-      ], 
-      "description": "Amazon Web Services provides a highly reliable, scalable, low-cost infrastructure platform in the cloud that powers hundreds of thousands of businesses in 190 countries around the world.", 
-      "image": "aws.png", 
-      "keywords": [
-        "aws", 
-        "cloud", 
-        "computing", 
-        "infrastructure", 
-        "compute", 
-        "storage", 
-        "database", 
-        "networking", 
-        "developer", 
-        "tools", 
-        "1", 
-        "tb", 
-        "hard", 
-        "drives", 
-        "drive", 
-        "api", 
-        "prize", 
-        "prizes"
-      ], 
-      "link": "https://aws.amazon.com", 
-      "name": "Amazon Web Services", 
-      "prizes": {
-        "Best Use of AWS": "1 TB Hard Drives"
-      }
-    }, 
     "bloomberg": {
       "chip_keywords": [
         "Bloomberg", 
@@ -464,44 +430,6 @@
       "name": "CDK Global", 
       "prizes": {
         "CDK Global's Evolution Award": "Mini drones! The number of awards and prizes will be determined by team size."
-      }
-    }, 
-    "domain": {
-      "chip_keywords": [
-        "MLH", 
-        "Swag Bags", 
-        "Best Domain Name"
-      ], 
-      "description": "We specialize in affordable domain names, web hosting, VPS hosting, Email, SSL certificates, web design, and online marketing services. Our free domain services including URL Forwarding, Email Forwarding, Transfer Lock, and Total DNS Management, give customers comprehensive control over their domain portfolios.", 
-      "image": "domain.svg", 
-      "keywords": [
-        "domain.com", 
-        "name", 
-        "dns", 
-        "web", 
-        "hosting", 
-        "vps", 
-        "email", 
-        "ssl", 
-        "certificates", 
-        "design", 
-        "online", 
-        "marketing", 
-        "services", 
-        "url", 
-        "forwarding", 
-        "transfer", 
-        "lock", 
-        "total", 
-        "management", 
-        "swag", 
-        "bags", 
-        "mlh"
-      ], 
-      "link": "https://www.domain.com", 
-      "name": "Domain.com", 
-      "prizes": {
-        "Best Domain Name from Domain.com": "Domain.com swag bags"
       }
     }, 
     "facebook": {
@@ -595,7 +523,9 @@
         "keep", 
         "austin", 
         "weird", 
-        "something"
+        "something", 
+        "ostrich", 
+        "pillow"
       ], 
       "name": "Jane Street", 
       "prizes": {
@@ -653,11 +583,12 @@
     }, 
     "mlh": {
       "chip_keywords": [
-        "MLH", 
         "HackHarassment", 
-        "swag bag"
+        "Privacy", 
+        "AWS", 
+        "Domains"
       ], 
-      "description": "Use your tech skills for good and hack online harassment. Build a software solution that can help reduce the frequency and/or severity of online harassment.", 
+      "description": "#HackHarassment:\nUse your tech skills for good and hack online harassment. Build a software solution that can help reduce the frequency and/or severity of online harassment.\nWatch Dogs\u00ae 2 Best Device Privacy Hack:\nEverything is part of the internet of things now - from your phone to your fitness band to your thermostat. Build a hack that utilizes private data being collected from your devices, and show how you can turn potential vulnerabilities into something constructive.\nAmazon Web Services: - Best Use of AWS:\nThe best use of AWS will win 1 TB hard drives.\nBest Domain Name from Domain.com:\nThe team with the best domain name will win domain.com swag bags.", 
       "image": "mlh-logo-color.svg", 
       "keywords": [
         "major", 
@@ -670,11 +601,63 @@
         "bag", 
         "bags", 
         "hackharassment", 
-        "#hackharassment"
+        "#hackharassment", 
+        "watch", 
+        "dogs", 
+        "internet", 
+        "of", 
+        "things", 
+        "private", 
+        "privacy", 
+        "data", 
+        "vulnerability", 
+        "vulnerabilities", 
+        "amazon", 
+        "aws", 
+        "cloud", 
+        "computing", 
+        "infrastructure", 
+        "compute", 
+        "storage", 
+        "database", 
+        "networking", 
+        "developer", 
+        "tools", 
+        "1", 
+        "tb", 
+        "hard", 
+        "drives", 
+        "drive", 
+        "api", 
+        "prize", 
+        "prizes", 
+        "domain", 
+        "domain.com", 
+        "name", 
+        "dns", 
+        "web", 
+        "hosting", 
+        "vps", 
+        "email", 
+        "ssl", 
+        "certificates", 
+        "design", 
+        "online", 
+        "marketing", 
+        "services", 
+        "url", 
+        "forwarding", 
+        "transfer", 
+        "lock", 
+        "total", 
+        "management"
       ], 
       "name": "MLH", 
       "prizes": {
-        "#HackHarassment": "HackHarassment swag bag"
+        "#HackHarassment": "HackHarassment swag bag", 
+        "Best Domain Name from Domain.com": "Domain.com swag bags", 
+        "Best Use of AWS": "1 TB Hard Drives", 
+        "Watch Dogs\u00ae 2 Best Device Privacy Hack": "Watch Dogs\u00ae 2 for each winning team member."
       }
     }, 
     "mongodb": {

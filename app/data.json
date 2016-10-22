@@ -164,37 +164,18 @@
             "keywords": ["ibm", "markiii", "mark", "iii", "api", "prize", "prizes", "bloomsky", "personal", "weather", "station", "blockchain", "and", "community", "challenge", "best", "use", "of", "t-shirt", "tshirt", "hyperx", "cloud", "stinger", "gaming", "headset"],
             "chip_keywords": ["API Prize", "Weather Station", "Gaming Headset"]
         },
-        "amazon": {
-            "name": "Amazon Web Services",
-            "image": "aws.png",
-            "description": "Amazon Web Services provides a highly reliable, scalable, low-cost infrastructure platform in the cloud that powers hundreds of thousands of businesses in 190 countries around the world.",
-            "link": "https://aws.amazon.com",
-            "prizes": {
-                "Best Use of AWS": "1 TB Hard Drives"
-            },
-            "keywords": ["aws", "cloud", "computing", "infrastructure", "compute", "storage", "database", "networking", "developer", "tools", "1", "tb", "hard", "drives", "drive", "api", "prize", "prizes"],
-            "chip_keywords": ["AWS", "API Prize", "hard drives"]
-        },
         "mlh": {
             "name": "MLH",
             "image": "mlh-logo-color.svg",
-            "description": "Use your tech skills for good and hack online harassment. Build a software solution that can help reduce the frequency and/or severity of online harassment.",
+            "description": "#HackHarassment:\nUse your tech skills for good and hack online harassment. Build a software solution that can help reduce the frequency and/or severity of online harassment.\nWatch Dogs® 2 Best Device Privacy Hack:\nEverything is part of the internet of things now - from your phone to your fitness band to your thermostat. Build a hack that utilizes private data being collected from your devices, and show how you can turn potential vulnerabilities into something constructive.\nAmazon Web Services: - Best Use of AWS:\nThe best use of AWS will win 1 TB hard drives.\nBest Domain Name from Domain.com:\nThe team with the best domain name will win domain.com swag bags.",
             "prizes": {
-                "#HackHarassment": "HackHarassment swag bag"
-            },
-            "keywords": ["major", "league", "hacking", "harassment", "good", "online", "swag", "bag", "bags", "hackharassment", "#hackharassment"],
-            "chip_keywords": ["MLH", "HackHarassment", "swag bag"]
-        },
-        "domain": {
-            "name": "Domain.com",
-            "image": "domain.svg",
-            "description": "We specialize in affordable domain names, web hosting, VPS hosting, Email, SSL certificates, web design, and online marketing services. Our free domain services including URL Forwarding, Email Forwarding, Transfer Lock, and Total DNS Management, give customers comprehensive control over their domain portfolios.",
-            "link": "https://www.domain.com",
-            "prizes": {
+                "#HackHarassment": "HackHarassment swag bag",
+                "Watch Dogs® 2 Best Device Privacy Hack": "Watch Dogs® 2 for each winning team member.",
+                "Best Use of AWS": "1 TB Hard Drives",
                 "Best Domain Name from Domain.com": "Domain.com swag bags"
             },
-            "keywords": ["domain.com", "name", "dns", "web", "hosting", "vps", "email", "ssl", "certificates", "design", "online", "marketing", "services", "url", "forwarding", "transfer", "lock", "total", "management", "swag", "bags", "mlh"],
-            "chip_keywords": ["MLH", "Swag Bags", "Best Domain Name"]
+            "keywords": ["major", "league", "hacking", "harassment", "good", "online", "swag", "bag", "bags", "hackharassment", "#hackharassment", "watch", "dogs", "internet", "of", "things", "private", "privacy", "data", "vulnerability", "vulnerabilities", "amazon", "aws", "cloud", "computing", "infrastructure", "compute", "storage", "database", "networking", "developer", "tools", "1", "tb", "hard", "drives", "drive", "api", "prize", "prizes", "domain", "domain.com", "name", "dns", "web", "hosting", "vps", "email", "ssl", "certificates", "design", "online", "marketing", "services", "url", "forwarding", "transfer", "lock", "total", "management"],
+            "chip_keywords": ["HackHarassment", "Privacy", "AWS", "Domains"]
         },
         "squareroot": {
             "name": "Square Root",
@@ -263,7 +244,7 @@
             "prizes": {
                 "Keep Austin Weird": "something weird"
             },
-            "keywords": ["jane", "street", "keep", "austin", "weird", "something"],
+            "keywords": ["jane", "street", "keep", "austin", "weird", "something", "ostrich", "pillow"],
             "chip_keywords": ["Jane Street", "Keep Austin Weird"]
         }
     }
