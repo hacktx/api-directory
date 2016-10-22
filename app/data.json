@@ -149,7 +149,7 @@
             "prizes": {
                 "Best Use of MongoDB": "Amazon Gift Cards"
             },
-            "keywords": ["mongo", "db", "amazon", "gift", "cards", "fb"],
+            "keywords": ["mongo", "db", "amazon", "gift", "cards", "fb", "api", "prize", "rpizes"],
             "chip_keywords": ["MongoDB", "Api Prize", "Amazon Gift Cards"]
         },
         "bluechasm": {

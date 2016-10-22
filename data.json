@@ -472,7 +472,10 @@
         "amazon", 
         "gift", 
         "cards", 
-        "fb"
+        "fb", 
+        "api", 
+        "prize", 
+        "rpizes"
       ], 
       "name": "MongoDB", 
       "prizes": {
