@@ -219,14 +219,14 @@
             "chip_keywords": ["HBK", "awesome", "Amazon gift certificate"]
         },
         "mantech": {
-            "name": "Mantech",
+            "name": "ManTech",
             "image": "mantech.png",
             "description": "Go to <a href='http://hackcoes.com'>hackcoes.com</a> to compete in the mini CTF.",
             "prizes": {
                 "Mantech Mini CTF": "TBA"
             },
             "keywords": ["capture", "the", "flag", "ctf", "mini", "prize", "prizes"],
-            "chip_keywords": ["Mantech", "CTF"]
+            "chip_keywords": ["ManTech", "CTF"]
         },
         "cdk": {
             "name": "CDK Global",

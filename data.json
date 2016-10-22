@@ -534,7 +534,7 @@
     }, 
     "mantech": {
       "chip_keywords": [
-        "Mantech", 
+        "ManTech", 
         "CTF"
       ], 
       "description": "Go to <a href='http://hackcoes.com'>hackcoes.com</a> to compete in the mini CTF.", 
@@ -548,7 +548,7 @@
         "prize", 
         "prizes"
       ], 
-      "name": "Mantech", 
+      "name": "ManTech", 
       "prizes": {
         "Mantech Mini CTF": "TBA"
       }
