@@ -65,7 +65,7 @@
           </div>
           <div class="card-content">
             <p class="block-with-text modal-trigger" href="{{ '#' + company + '-challenge-modal' }}">
-              {{ data.description|safe }}
+              {% if data.description %}{{ data.description|safe }}{% endif %}
               {% for criteria, item in data.prizes.items() %}
               <br>
               {{ criteria + ': ' + item|safe }}
@@ -111,11 +111,13 @@
 <div id="{{ company + '-challenge-modal' }}" class="modal">
   <div class="modal-content">
     <h3 class="modal-title">{{ data.name }}</h3>
+    {% if data.description %}
     <div class="divider"></div>
     <h4 class="modal-header">Description</h4>
     {% for item in data.description.split('\n') %}
     <p>{{ item|safe }}</p>
     {% endfor %}
+    {% endif %}
     <div class="divider"></div>
     <h4 class="modal-header">Prizes</h4>
     {% for criteria, prize in data.prizes.items() %}

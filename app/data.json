@@ -95,7 +95,8 @@
         "microsoft": {
             "name": "Microsoft",
             "image": "microsoft.png",
-            "description": "Microsoft is offering a prize for the best hack that uses its technology.",
+            "description": "Visit the Microsoft booth for more information! Build with one of our technologies. You can find more resources at <a href='http://microsofthackers.github.io'>microsofthackers.github.io</a> and <a href='http://aka.ms/api.lib'>aka.ms/api.lib</a>.",
+            "link": "http://microsofthackers.github.io",
             "prizes": {
                 "Best Use of Microsoft Technology": "One Surface Pro 4 + Type Cover for each member of the winning team"
             },
@@ -125,7 +126,6 @@
         "1517": {
             "name": "1517",
             "image": "1517.png",
-            "description": "",
             "prizes": {
                 "Best Hack that Teams Really Need to Keep Building on Post Weekend": "Three $1000 grants"
             },
@@ -135,7 +135,7 @@
         "facebook": {
             "name": "Facebook",
             "image": "fb.png",
-            "description": "",
+            "description": "Facebook's mission is to make the world more Open and Connected.",
             "prizes": {
                 "Best Open and Connected Hack": "Oculus Rift Development Kit 2 for each member of the winning team"
             },
@@ -163,6 +163,108 @@
             },
             "keywords": ["ibm", "markiii", "mark", "iii", "api", "prize", "prizes", "bloomsky", "personal", "weather", "station", "blockchain", "and", "community", "challenge", "best", "use", "of", "t-shirt", "tshirt", "hyperx", "cloud", "stinger", "gaming", "headset"],
             "chip_keywords": ["API Prize", "Weather Station", "Gaming Headset"]
+        },
+        "amazon": {
+            "name": "Amazon Web Services",
+            "image": "aws.png",
+            "description": "Amazon Web Services provides a highly reliable, scalable, low-cost infrastructure platform in the cloud that powers hundreds of thousands of businesses in 190 countries around the world.",
+            "link": "https://aws.amazon.com",
+            "prizes": {
+                "Best Use of AWS": "1 TB Hard Drives"
+            },
+            "keywords": ["aws", "cloud", "computing", "infrastructure", "compute", "storage", "database", "networking", "developer", "tools", "1", "tb", "hard", "drives", "drive", "api", "prize", "prizes"],
+            "chip_keywords": ["AWS", "API Prize", "hard drives"]
+        },
+        "mlh": {
+            "name": "MLH",
+            "image": "mlh-logo-color.svg",
+            "description": "Use your tech skills for good and hack online harassment. Build a software solution that can help reduce the frequency and/or severity of online harassment.",
+            "prizes": {
+                "#HackHarassment": "HackHarassment swag bag"
+            },
+            "keywords": ["major", "league", "hacking", "harassment", "good", "online", "swag", "bag", "bags", "hackharassment", "#hackharassment"],
+            "chip_keywords": ["MLH", "HackHarassment", "swag bag"]
+        },
+        "domain": {
+            "name": "Domain.com",
+            "image": "domain.svg",
+            "description": "We specialize in affordable domain names, web hosting, VPS hosting, Email, SSL certificates, web design, and online marketing services. Our free domain services including URL Forwarding, Email Forwarding, Transfer Lock, and Total DNS Management, give customers comprehensive control over their domain portfolios.",
+            "link": "https://www.domain.com",
+            "prizes": {
+                "Best Domain Name from Domain.com": "Domain.com swag bags"
+            },
+            "keywords": ["domain.com", "name", "dns", "web", "hosting", "vps", "email", "ssl", "certificates", "design", "online", "marketing", "services", "url", "forwarding", "transfer", "lock", "total", "management", "swag", "bags", "mlh"],
+            "chip_keywords": ["MLH", "Swag Bags", "Best Domain Name"]
+        },
+        "squareroot": {
+            "name": "Square Root",
+            "image": "squareroot.png",
+            "description": "At Square Root, we believe data should lead to action. We want to know how your project will actually change a user's behavior. The best example of how data can change behavior will win $500 towards Amazon Web Services (AWS) for their team. To learn more about Square Root and our philosophy around data + action visit our blog.",
+            "link": "http://square-root.com/2016/02/data-chasers-challenge",
+            "prizes": {
+                "Most Likely to Change Behavior": "$500 AWS Credit"
+            },
+            "keywords": ["square", "root", "data", "action", "most", "likely", "to", "change", "behavior", "users", "user", "aws", "amazon", "web", "services", "data", "chasers", "challenge", "credit", "500", "$500"],
+            "chip_keywords": ["Square Root", "data", "AWS Credit"]
+        },
+        "qualtrics": {
+            "name": "Qualtrics",
+            "image": "qualtrics.png",
+            "description": "We want to see what you can do with insights! Create a project using data visualization that leads to a meaningful call to action.",
+            "prizes": {
+                "Best Use of Data Visualization": "Snowboard/longboard/or mountain bike for each member of the team"
+            },
+            "keywords": ["best", "use", "of", "data", "visualization", "snowboard", "longboard", "mountain", "bike", "outdoors"],
+            "chip_keywords": ["Qualtrics", "data visualization", "snowboard"]
+        },
+        "goldmansachs": {
+            "name": "Goldman Sachs",
+            "image": "goldman.png",
+            "description": "Prize will be awarded to the project with the best overall user experience.",
+            "prizes": {
+                "Best UX": "4 Fitbits"
+            },
+            "keywords": ["goldman", "sachs", "best", "ux", "user", "experience", "fitbit", "fitbits"],
+            "chip_keywords": ["Goldman Sachs", "Best UX", "Fitbit"]
+        },
+        "hbk": {
+            "name": "HBK Capital Management",
+            "image": "hbk.png",
+            "description": "Just impress us.",
+            "prizes": {
+                "HBK That's So Money Prize of Awesomeness": "$100 Amazon gift certificate for each member of the winning team."
+            },
+            "keywords": ["capital", "management", "that's", "so", "money", "prize", "of", "awesome", "awesomeness", "anything", "$100", "100", "amazon", "gift", "certificate", "any", "every"],
+            "chip_keywords": ["HBK", "awesome", "Amazon gift certificate"]
+        },
+        "mantech": {
+            "name": "Mantech",
+            "image": "mantech.png",
+            "description": "Go to <a href='http://hackcoes.com'>hackcoes.com</a> to compete in the mini CTF.",
+            "prizes": {
+                "Mantech Mini CTF": "TBA"
+            },
+            "keywords": ["capture", "the", "flag", "ctf", "mini", "prize", "prizes"],
+            "chip_keywords": ["Mantech", "CTF"]
+        },
+        "cdk": {
+            "name": "CDK Global",
+            "image": "cdk.png",
+            "description": "Change the car buying experience! The Evolution Award will be given to team(s) whose project(s) work to evolve the automotive retail experience.",
+            "prizes": {
+                "CDK Global's Evolution Award": "Mini drones! The number of awards and prizes will be determined by team size."
+            },
+            "keywords": ["global", "car", "buying", "experience", "evolution", "automotive", "retail", "award", "global's", "mini", "drones"],
+            "chip_keywords": ["CDK Global", "Car Buying Experience", "Mini Drones"]
+        },
+        "janestreet": {
+            "name": "Jane Street",
+            "image": "janestreet.png",
+            "prizes": {
+                "Keep Austin Weird": "something weird"
+            },
+            "keywords": ["jane", "street", "keep", "austin", "weird", "something"],
+            "chip_keywords": ["Jane Street", "Keep Austin Weird"]
         }
     }
 }
