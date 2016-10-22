@@ -1,38 +1,5 @@
 {
-  "companies": {
-    "bloomberg": {
-      "chip_keywords": [
-        "finance", 
-        "Python", 
-        "data"
-      ], 
-      "description": "The Bloomberg API (BLPAPI) is a set of freely available software development kits (SDKs) that allow software developers to create applications that consume market data. The BLPAPI interface powers global market data distribution to desktops, workgroups and enterprise applications and is used daily by more than 100,000 Bloomberg customers.", 
-      "image": "bloomberg.png", 
-      "keywords": [
-        "finance", 
-        "financial", 
-        "java", 
-        "c++", 
-        "c#", 
-        "perl", 
-        "python", 
-        "c", 
-        ".net", 
-        "big", 
-        "data", 
-        "market"
-      ], 
-      "link": "https://www.bloomberglabs.com/api/", 
-      "name": "Bloomberg", 
-      "usage": {
-        "C": "printf(\"Hello World!\\n\");", 
-        "C#": "System.Console.WriteLine(\"Hello World!\");", 
-        "C++": "cout << \"Hello World!\" << endl;", 
-        "Java": "System.out.println(\"Hello World!\");", 
-        "Perl": "print \"Hello World!\\n\";", 
-        "Python": "print \"Hello World!\""
-      }
-    }, 
+  "apis": {
     "capitalone": {
       "chip_keywords": [
         "REST", 
@@ -43,6 +10,7 @@
       "image": "capital-one.png", 
       "keywords": [
         "finance", 
+        "money", 
         "financial", 
         "banking", 
         "data", 
@@ -65,6 +33,43 @@
       "link": "http://api.reimaginebanking.com/", 
       "name": "Capital One"
     }, 
+    "digitalocean": {
+      "chip_keywords": [
+        "REST", 
+        "OAuth", 
+        "cloud computing"
+      ], 
+      "description": "The DigitalOcean API allows you to manage Droplets and resources within the DigitalOcean cloud in a simple, programmatic way using conventional HTTP requests. The endpoints are intuitive and powerful, allowing you to easily make calls to retrieve information or to execute actions.", 
+      "image": "digital-ocean.png", 
+      "keywords": [
+        "cloud", 
+        "computing", 
+        "rest", 
+        "control", 
+        "panel", 
+        "oauth", 
+        "authentication", 
+        "metadata", 
+        "data", 
+        "ruby", 
+        "go", 
+        "laravel", 
+        "php", 
+        "python", 
+        ".net", 
+        "node", 
+        "node.js", 
+        "javascript", 
+        "scala", 
+        "java", 
+        "ios", 
+        "perl", 
+        "storage", 
+        "distributed"
+      ], 
+      "link": "https://developers.digitalocean.com/", 
+      "name": "Digital Ocean"
+    }, 
     "elastic": {
       "chip_keywords": [
         "search", 
@@ -77,13 +82,128 @@
         "search", 
         "elasticsearch", 
         "java", 
-        "hadoop"
+        "hadoop", 
+        "file", 
+        "files"
       ], 
       "link": "https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/index.html", 
-      "name": "Elastic", 
-      "usage": {
-        "Java": "System.out.println(\"Search :+1:\");"
-      }
+      "name": "Elastic"
+    }, 
+    "microsoft": {
+      "chip_keywords": [
+        "Azure", 
+        ".NET", 
+        "cloud computing"
+      ], 
+      "description": "Comprehensive API reference for working with Microsoft tools, services, and technologies. Whether you're building apps, developing websites, or working with the cloud, you'll find detailed syntax, code snippets, and best practices.", 
+      "image": "microsoft.png", 
+      "keywords": [
+        "windows", 
+        ".net", 
+        "azure", 
+        "kinect", 
+        "rest", 
+        "bing", 
+        "maps", 
+        "search", 
+        "ads", 
+        "ad", 
+        "yammer", 
+        "visual", 
+        "studio", 
+        "onedrive", 
+        "onenote", 
+        "office", 
+        "calendar", 
+        "contacts", 
+        "discovery", 
+        "service", 
+        "authentication", 
+        "graph", 
+        "sql", 
+        "media", 
+        "mobile", 
+        "notification", 
+        "notifications", 
+        "documentdb", 
+        "skype", 
+        "files", 
+        "file", 
+        "client", 
+        "server", 
+        "c#", 
+        "c++", 
+        "cloud", 
+        "computing", 
+        "website", 
+        "websites"
+      ], 
+      "link": "https://aka.ms/api.lib", 
+      "name": "Microsoft"
+    }, 
+    "rapidapi": {
+      "chip_keywords": [
+        "REST", 
+        "APIs", 
+        "more APIs"
+      ], 
+      "description": "RapidAPI let's developers create a fully functional backend for their app. We have turned every function from sending a text message to storing a file is a block, and all developers need to do is to drag-n-drop.\n\t\tRapidAPI lives in the cloud, so any backend created with RapidAPI is automatically hosted online. That way, our users don\u2019t have to worry about deploying and maintaining their apps - a process known to be time consuming, where mistakes cause long downtimes. Also, because we use state of the art servers in multiple datacenters around the world, users enjoy best in class performance out if the box.\n\t\tRapidAPI is also very easy to integrate in the app/website. Since RapidAPI uses a REST api for communications, users don\u2019t have to install any special libraries, and can use RapidAPI with any platform. Moreover, RapidAPI automatically generates code snippets to be copy and pasted into the front-end.", 
+      "image": "rapidapi.jpg", 
+      "keywords": [
+        "apis", 
+        "api", 
+        "directory", 
+        "more", 
+        "rest", 
+        "any", 
+        "language", 
+        "sdk"
+      ], 
+      "link": "http://rapidapi.com", 
+      "name": "RapidAPI"
+    }, 
+    "twilio": {
+      "chip_keywords": [
+        "sms", 
+        "voice", 
+        "messaging"
+      ], 
+      "description": "Use promo code HackTX2016 for $25 credit.\nTwilio is a cloud communications platform that gives you building blocks to add messaging, voice, and video in your web and mobile applications.", 
+      "image": "twilio.png", 
+      "keywords": [
+        "sms", 
+        "voice", 
+        "video", 
+        "ip", 
+        "messaging", 
+        "call", 
+        "calls", 
+        "communication", 
+        "programmable", 
+        "program", 
+        "c#", 
+        "java", 
+        "node", 
+        "node.js", 
+        "nodejs", 
+        "javascript", 
+        "php", 
+        "python", 
+        "ruby", 
+        "android", 
+        "objective-c", 
+        "swift", 
+        "ios", 
+        "mobile"
+      ], 
+      "link": "https://www.twilio.com/docs/", 
+      "name": "Twilio"
+    }
+  }, 
+  "challenges": {
+    "bloomberg": {
+      "image": "bloomberg.png", 
+      "name": "Bloomberg Puzzles"
     }
   }
 }

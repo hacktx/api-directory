@@ -5,6 +5,8 @@
 <script type="text/javascript" src="{{ url_for('static', filename='js/hammer.min.js') }}"></script>
 <script type="text/javascript" src="{{ url_for('static', filename='js/global.js') }}"></script>
 <script type="text/javascript" src="{{ url_for('static', filename='js/toasts.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/waves.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/leanModal.js') }}"></script>
 <script type="text/javascript" src="{{ url_for('static', filename='js/searchbox.js') }}"></script>
 <script type="text/javascript" src="{{ url_for('static', filename='js/search.js') }}"></script>
 {% endblock %}
@@ -23,21 +25,21 @@
 <div class="section">
   <div class="container">
     <div class="row">
-      {% for company, data in companies.items() %}
-      <div class="col s12 l6 api-card-div" id="{{ company.lower() }}">
+      {% for company, data in apis.items() %}
+      <div class="col s12 l6 api-card-div" id="{{ company }}">
         <div class="card small hoverable">
           <div class="center api-img-wrapper">
             <img src="{{ url_for('static', filename='img/partners/' + data.image) }}" class="api-img">
           </div>
           <div class="card-content">
-            <p class="block-with-text">
+            <p class="block-with-text modal-trigger" href="{{ '#' + company + '-modal' }}">
             {{ data.description }}
             </p>
           </div>
           <div class="card-action">
             <div class="card-links">
-              <a href="{{ url_for('api_page', name=company) }}">More Info</a>
-              <a href="{{ data.link }}">Visit Website</a>
+              <a class="modal-trigger" href="{{ '#' + company + '-modal' }}">More Info</a>
+              <a target="_blank" href="{{ data.link }}">Visit Website</a>
             </div>
             <div class="chip-links">
               {% for keyword in data.chip_keywords %}
@@ -51,4 +53,20 @@
     </div>
   </div>
 </div>
+{% for company, data in apis.items() %}
+<div id="{{ company + '-modal' }}" class="modal">
+  <div class="modal-content">
+    <h3 class="modal-title">{{ data.name }}</h3>
+    <div class="divider"></div>
+    <h4 class="modal-header">Description</h4>
+    {% for item in data.description.split('\n') %}
+    <p>{{ item }}</p>
+    {% endfor %}
+  </div>
+  <div class="modal-footer">
+    <a class="modal-action modal-close waves-effect waves-hacktx btn-flat">Close</a>
+    <a target="_blank" class="waves-effect waves-hacktx btn-flat" href="{{ data.link }}">Visit Website</a>
+  </div>
+</div>
+{% endfor %}
 {% endblock %}

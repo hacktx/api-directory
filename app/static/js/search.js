@@ -12,25 +12,23 @@ function get(key) {
     return list ? new Set(list.split(" ")) : new Set();
 }
 
-var $loadJSONPromise;
-if (sessionStorage.getItem("done")) {
-    $loadJSONPromise = $.Deferred().resolve();
-} else {
-    sessionStorage.clear();
-    $loadJSONPromise = $.getJSON("data.json", function(data) {
-        if (data.hasOwnProperty('companies')) {
-            $.each(data.companies, function(name, values) {
-                put(name.toLowerCase(), name.toLowerCase());
-                $.each(values.keywords, function(index, keyword) {
-                    put(keyword.toLowerCase(), name.toLowerCase());
-                });
+sessionStorage.clear();
+var $loadJSONPromise = $.getJSON("data.json", function(data) {
+    if (data.hasOwnProperty('apis')) {
+        $.each(data.apis, function(name, values) {
+            put(name.toLowerCase(), name.toLowerCase());
+            put("api", name.toLowerCase());
+            put("apis", name.toLowerCase());
+            $.each(values.keywords, function(index, keyword) {
+                put(keyword.toLowerCase(), name.toLowerCase());
             });
-        }
-        sessionStorage.setItem("done", "true");
-    });
-}
+        });
+    }
+});
 
 $(document).ready(function() {
+    // allow modals to work
+    $('.modal-trigger').leanModal();
     // show or hide appropriate elements
     var query = window.location.search;
     var $cards = $(".api-card-div");
@@ -86,8 +84,6 @@ $(document).ready(function() {
 
     // set chip click actions to redirect to search
     $('.chip').click(function(e) {
-        console.log(window.location);
-        console.log(window.location.href);
         window.location.href = window.location.href.split("?")[0] + "?query=" + $(this).text();
     });
 

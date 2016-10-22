@@ -1,30 +1,11 @@
 {
-    "companies": {
-        "bloomberg": {
-            "name": "Bloomberg",
-            "image": "bloomberg.png",
-            "description": "The Bloomberg API (BLPAPI) is a set of freely available software development kits (SDKs) that allow software developers to create applications that consume market data. The BLPAPI interface powers global market data distribution to desktops, workgroups and enterprise applications and is used daily by more than 100,000 Bloomberg customers.",
-            "link": "https://www.bloomberglabs.com/api/",
-            "usage": {
-                "Java": "System.out.println(\"Hello World!\");",
-                "C++": "cout << \"Hello World!\" << endl;",
-                "C": "printf(\"Hello World!\\n\");",
-                "C#": "System.Console.WriteLine(\"Hello World!\");",
-                "Perl": "print \"Hello World!\\n\";",
-                "Python": "print \"Hello World!\""
-            },
-            "keywords": ["finance", "financial", "java", "c++", "c#", "perl", "python", "c", ".net", "big", "data", "market"],
-            "chip_keywords": ["finance", "Python", "data"]
-        },
+    "apis": {
         "elastic": {
             "name": "Elastic",
             "image": "elastic.png",
             "description": "Elastic believes getting immediate, actionable insight from data matters. As the company behind the open source projects — Elasticsearch, Logstash, Kibana, and Beats — designed to take data from any source and search, analyze, and visualize it in real time, Elastic is helping people make sense of data. From stock quotes to Twitter streams, Apache logs to WordPress blogs, our products are extending what's possible with data, delivering on the promise that good things come from connecting the dots.",
             "link": "https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/index.html",
-            "usage": {
-                "Java": "System.out.println(\"Search :+1:\");"
-            },
-            "keywords": ["search", "elasticsearch", "java", "hadoop"],
+            "keywords": ["search", "elasticsearch", "java", "hadoop", "file", "files"],
             "chip_keywords": ["search", "Java", "Hadoop"]
         },
         "capitalone": {
@@ -32,8 +13,46 @@
             "image": "capital-one.png",
             "description": "Nessie is Capital One’s Hackathon API that gives you access to a multitude of real public-facing data - such as ATM and bank branch locations - along with mock customer account data. Use HTTP requests to set up peer-to-peer transactions, simulate a weekly paycheck, or even schedule bills for customers! This is all structured in a way that resembles how we actually run things here at Capital One.",
             "link": "http://api.reimaginebanking.com/",
-            "keywords": ["finance", "financial", "banking", "data", "atm", "bank", "account", "transaction", "transactions", "bills", "nessie", "ios", "android", "ruby", "gem", "javascript", "rest", "restful", "jquery"],
+            "keywords": ["finance", "money", "financial", "banking", "data", "atm", "bank", "account", "transaction", "transactions", "bills", "nessie", "ios", "android", "ruby", "gem", "javascript", "rest", "restful", "jquery"],
             "chip_keywords": ["REST", "banking", "jQuery"]
+        },
+        "twilio": {
+            "name": "Twilio",
+            "image": "twilio.png",
+            "description": "Use promo code HackTX2016 for $25 credit.\nTwilio is a cloud communications platform that gives you building blocks to add messaging, voice, and video in your web and mobile applications.",
+            "link": "https://www.twilio.com/docs/",
+            "keywords": ["sms", "voice", "video", "ip", "messaging", "call", "calls", "communication", "programmable", "program", "c#", "java", "node", "node.js", "nodejs", "javascript", "php", "python", "ruby", "android", "objective-c", "swift", "ios", "mobile"],
+            "chip_keywords": ["sms", "voice", "messaging"]
+        },
+        "digitalocean": {
+            "name": "Digital Ocean",
+            "image": "digital-ocean.png",
+            "description": "The DigitalOcean API allows you to manage Droplets and resources within the DigitalOcean cloud in a simple, programmatic way using conventional HTTP requests. The endpoints are intuitive and powerful, allowing you to easily make calls to retrieve information or to execute actions.",
+            "link": "https://developers.digitalocean.com/",
+            "keywords": ["cloud", "computing", "rest", "control", "panel", "oauth", "authentication", "metadata", "data", "ruby", "go", "laravel", "php", "python", ".net", "node", "node.js", "javascript", "scala", "java", "ios", "perl", "storage", "distributed"],
+            "chip_keywords": ["REST", "OAuth", "cloud computing"]
+        },
+        "microsoft": {
+            "name": "Microsoft",
+            "image": "microsoft.png",
+            "description": "Comprehensive API reference for working with Microsoft tools, services, and technologies. Whether you're building apps, developing websites, or working with the cloud, you'll find detailed syntax, code snippets, and best practices.",
+            "link": "https://aka.ms/api.lib",
+            "keywords": ["windows", ".net", "azure", "kinect", "rest", "bing", "maps", "search", "ads", "ad", "yammer", "visual", "studio", "onedrive", "onenote", "office", "calendar", "contacts", "discovery", "service", "authentication", "graph", "sql", "media", "mobile", "notification", "notifications", "documentdb", "skype", "files", "file", "client", "server", "c#", "c++", "cloud", "computing", "website", "websites"],
+            "chip_keywords": ["Azure", ".NET", "cloud computing"]
+        },
+        "rapidapi": {
+            "name": "RapidAPI",
+            "image": "rapidapi.jpg",
+            "description": "RapidAPI let's developers create a fully functional backend for their app. We have turned every function from sending a text message to storing a file is a block, and all developers need to do is to drag-n-drop.\n\t\tRapidAPI lives in the cloud, so any backend created with RapidAPI is automatically hosted online. That way, our users don’t have to worry about deploying and maintaining their apps - a process known to be time consuming, where mistakes cause long downtimes. Also, because we use state of the art servers in multiple datacenters around the world, users enjoy best in class performance out if the box.\n\t\tRapidAPI is also very easy to integrate in the app/website. Since RapidAPI uses a REST api for communications, users don’t have to install any special libraries, and can use RapidAPI with any platform. Moreover, RapidAPI automatically generates code snippets to be copy and pasted into the front-end.",
+            "link": "http://rapidapi.com",
+            "keywords": ["apis", "api", "directory", "more", "rest", "any", "language", "sdk"],
+            "chip_keywords": ["REST", "APIs", "more APIs"]
+        }
+    },
+    "challenges": {
+        "bloomberg": {
+            "name": "Bloomberg Puzzles",
+            "image": "bloomberg.png"
         }
     }
 }
