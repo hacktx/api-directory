@@ -68,9 +68,17 @@
             "name": "Indeed",
             "image": "indeed.png",
             "description": "The Indeed API is the same API which powers our mobile website. You can search for jobs, results are returned as JSON or XML.",
-            "link": "http://www.indeed.com/publisher",
+            "link": "https://ads.indeed.com/jobroll/xmlfeed",
             "keywords": ["job", "jobs", "search", "json", "xml", "rest", "restful"],
             "chip_keywords": ["jobs", "search", "JSON"]
+        },
+        "bluechasm": {
+            "name": "BlueChasm",
+            "image": "markiii.png",
+            "description": "BlueChasm is providing its weather API for its Weather and Community Challenge.",
+            "link": "http://cdn2.hubspot.net/hubfs/1686797/Weather%20API%20Documentation.pdf",
+            "keywords": ["ibm", "mark", "markiii", "iii", "weather", "api", "prize", "prizes"],
+            "chip_keywords": ["BlueChasm", "API Prize", "weather"]
         }
     },
     "challenges": {
@@ -143,6 +151,18 @@
             },
             "keywords": ["mongo", "db", "amazon", "gift", "cards", "fb"],
             "chip_keywords": ["MongoDB", "Api Prize", "Amazon Gift Cards"]
+        },
+        "bluechasm": {
+            "name": "BlueChasm",
+            "image": "markiii.png",
+            "description": "Come visit our table to learn more about BlueChasm, attempt our 2 challenges listed in the link, and get a FREE t-shirt!",
+            "link": "http://bit.ly/BChacktx",
+            "prizes": {
+                "Weather and Community Challenge": "Bloomsky Personal Weather Station",
+                "Best Use of Blockchain": "HyperX Cloud Stinger Gaming Headset"
+            },
+            "keywords": ["ibm", "markiii", "mark", "iii", "api", "prize", "prizes", "bloomsky", "personal", "weather", "station", "blockchain", "and", "community", "challenge", "best", "use", "of", "t-shirt", "tshirt", "hyperx", "cloud", "stinger", "gaming", "headset"],
+            "chip_keywords": ["API Prize", "Weather Station", "Gaming Headset"]
         }
     }
 }

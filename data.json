@@ -1,5 +1,26 @@
 {
   "apis": {
+    "bluechasm": {
+      "chip_keywords": [
+        "BlueChasm", 
+        "API Prize", 
+        "weather"
+      ], 
+      "description": "BlueChasm is providing its weather API for its Weather and Community Challenge.", 
+      "image": "markiii.png", 
+      "keywords": [
+        "ibm", 
+        "mark", 
+        "markiii", 
+        "iii", 
+        "weather", 
+        "api", 
+        "prize", 
+        "prizes"
+      ], 
+      "link": "http://cdn2.hubspot.net/hubfs/1686797/Weather%20API%20Documentation.pdf", 
+      "name": "BlueChasm"
+    }, 
     "capitalone": {
       "chip_keywords": [
         "REST", 
@@ -153,7 +174,7 @@
         "rest", 
         "restful"
       ], 
-      "link": "http://www.indeed.com/publisher", 
+      "link": "https://ads.indeed.com/jobroll/xmlfeed", 
       "name": "Indeed"
     }, 
     "microsoft": {
@@ -342,6 +363,48 @@
       "name": "Bloomberg Puzzles", 
       "prizes": {
         "First Person to Solve Each Puzzle": "???"
+      }
+    }, 
+    "bluechasm": {
+      "chip_keywords": [
+        "API Prize", 
+        "Weather Station", 
+        "Gaming Headset"
+      ], 
+      "description": "Come visit our table to learn more about BlueChasm, attempt our 2 challenges listed in the link, and get a FREE t-shirt!", 
+      "image": "markiii.png", 
+      "keywords": [
+        "ibm", 
+        "markiii", 
+        "mark", 
+        "iii", 
+        "api", 
+        "prize", 
+        "prizes", 
+        "bloomsky", 
+        "personal", 
+        "weather", 
+        "station", 
+        "blockchain", 
+        "and", 
+        "community", 
+        "challenge", 
+        "best", 
+        "use", 
+        "of", 
+        "t-shirt", 
+        "tshirt", 
+        "hyperx", 
+        "cloud", 
+        "stinger", 
+        "gaming", 
+        "headset"
+      ], 
+      "link": "http://bit.ly/BChacktx", 
+      "name": "BlueChasm", 
+      "prizes": {
+        "Best Use of Blockchain": "HyperX Cloud Stinger Gaming Headset", 
+        "Weather and Community Challenge": "Bloomsky Personal Weather Station"
       }
     }, 
     "facebook": {
