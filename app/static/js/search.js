@@ -24,6 +24,16 @@ var $loadJSONPromise = $.getJSON("data.json", function(data) {
             });
         });
     }
+    if (data.hasOwnProperty('challenges')) {
+        $.each(data.apis, function(name, values) {
+            put(name.toLowerCase(), name.toLowerCase() + '-challenge');
+            put('challenge', name.toLowerCase() + '-challenge');
+            put('challenges', name.toLowerCase() + '-challenge');
+            $.each(values.keywords, function(index, keyword) {
+                put(keyword.toLowerCase(), name.toLowerCase() + '-challenge');
+            });
+        });
+    }
 });
 
 $(document).ready(function() {
