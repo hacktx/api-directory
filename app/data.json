@@ -37,7 +37,7 @@
             "image": "digital-ocean.png",
             "description": "The DigitalOcean API allows you to manage Droplets and resources within the DigitalOcean cloud in a simple, programmatic way using conventional HTTP requests. The endpoints are intuitive and powerful, allowing you to easily make calls to retrieve information or to execute actions.",
             "link": "https://developers.digitalocean.com/",
-            "keywords": ["cloud", "computing", "rest", "control", "panel", "oauth", "authentication", "metadata", "data", "ruby", "go", "laravel", "php", "python", ".net", "node", "node.js", "javascript", "scala", "java", "ios", "perl", "storage", "distributed", "digital", "ocean"],
+            "keywords": ["cloud", "computing", "rest", "restful", "control", "panel", "oauth", "authentication", "metadata", "data", "ruby", "go", "laravel", "php", "python", ".net", "node", "node.js", "javascript", "scala", "java", "ios", "perl", "storage", "distributed", "digital", "ocean"],
             "chip_keywords": ["REST", "OAuth", "cloud computing"]
         },
         "microsoft": {
@@ -45,7 +45,7 @@
             "image": "microsoft.png",
             "description": "Comprehensive API reference for working with Microsoft tools, services, and technologies. Whether you're building apps, developing websites, or working with the cloud, you'll find detailed syntax, code snippets, and best practices.\nFor more information about Azure, visit <a target='_blank' href='https://aka.ms/azure.all'>aka.ms/azure.all</a>.",
             "link": "https://aka.ms/api.lib",
-            "keywords": ["windows", ".net", "azure", "kinect", "rest", "bing", "maps", "search", "ads", "ad", "yammer", "visual", "studio", "onedrive", "onenote", "office", "calendar", "contacts", "discovery", "service", "authentication", "graph", "sql", "media", "mobile", "notification", "notifications", "documentdb", "skype", "files", "file", "client", "server", "c#", "c++", "cloud", "computing", "website", "websites"],
+            "keywords": ["windows", ".net", "azure", "kinect", "rest", "restful", "bing", "maps", "search", "ads", "ad", "yammer", "visual", "studio", "onedrive", "onenote", "office", "calendar", "contacts", "discovery", "service", "authentication", "graph", "sql", "media", "mobile", "notification", "notifications", "documentdb", "skype", "files", "file", "client", "server", "c#", "c++", "cloud", "computing", "website", "websites"],
             "chip_keywords": ["Azure", ".NET", "cloud computing"]
         },
         "rapidapi": {
@@ -53,8 +53,24 @@
             "image": "rapidapi.jpg",
             "description": "RapidAPI let's developers create a fully functional backend for their app. We have turned every function from sending a text message to storing a file is a block, and all developers need to do is to drag-n-drop.\n\t\tRapidAPI lives in the cloud, so any backend created with RapidAPI is automatically hosted online. That way, our users don’t have to worry about deploying and maintaining their apps - a process known to be time consuming, where mistakes cause long downtimes. Also, because we use state of the art servers in multiple datacenters around the world, users enjoy best in class performance out if the box.\n\t\tRapidAPI is also very easy to integrate in the app/website. Since RapidAPI uses a REST api for communications, users don’t have to install any special libraries, and can use RapidAPI with any platform. Moreover, RapidAPI automatically generates code snippets to be copy and pasted into the front-end.",
             "link": "http://rapidapi.com",
-            "keywords": ["apis", "api", "directory", "more", "rest", "any", "language", "sdk", "rapid", "a16z", "andreesen", "horowitz"],
+            "keywords": ["apis", "api", "directory", "more", "rest", "restful", "any", "language", "sdk", "rapid", "a16z", "andreesen", "horowitz"],
             "chip_keywords": ["REST", "APIs", "more APIs"]
+        },
+        "facebook": {
+            "name": "Facebook",
+            "image": "fb.png",
+            "description": "Connect on a global scale.\nBuild, grow and monetize your apps with Facebook.",
+            "link": "https://developers.facebook.com/",
+            "keywords": ["social", "fb", "graph", "login", "messenger", "analytics", "sharing", "share", "sdk", "android", "ios", "mobile", "swift", "react", "javascript", "php", "tvos", "unity", "atlas", "graph", "app", "apps", "game", "games", "marketing", "ad", "ads", "instagram", "oculus"],
+            "chip_keywords": ["Facebook", "Messenger", "Apps"]
+        },
+        "indeed": {
+            "name": "Indeed",
+            "image": "indeed.png",
+            "description": "The Indeed API is the same API which powers our mobile website. You can search for jobs, results are returned as JSON or XML.",
+            "link": "http://www.indeed.com/publisher",
+            "keywords": ["job", "jobs", "search", "json", "xml", "rest", "restful"],
+            "chip_keywords": ["jobs", "search", "JSON"]
         }
     },
     "challenges": {
@@ -125,7 +141,7 @@
             "prizes": {
                 "Best Use of MongoDB": "Amazon Gift Cards"
             },
-            "keywords": ["mongo", "db", "amazon", "gift", "cards"],
+            "keywords": ["mongo", "db", "amazon", "gift", "cards", "fb"],
             "chip_keywords": ["MongoDB", "Api Prize", "Amazon Gift Cards"]
         }
     }

@@ -47,6 +47,7 @@
         "cloud", 
         "computing", 
         "rest", 
+        "restful", 
         "control", 
         "panel", 
         "oauth", 
@@ -93,6 +94,68 @@
       "link": "https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/index.html", 
       "name": "Elastic"
     }, 
+    "facebook": {
+      "chip_keywords": [
+        "Facebook", 
+        "Messenger", 
+        "Apps"
+      ], 
+      "description": "Connect on a global scale.\nBuild, grow and monetize your apps with Facebook.", 
+      "image": "fb.png", 
+      "keywords": [
+        "social", 
+        "fb", 
+        "graph", 
+        "login", 
+        "messenger", 
+        "analytics", 
+        "sharing", 
+        "share", 
+        "sdk", 
+        "android", 
+        "ios", 
+        "mobile", 
+        "swift", 
+        "react", 
+        "javascript", 
+        "php", 
+        "tvos", 
+        "unity", 
+        "atlas", 
+        "graph", 
+        "app", 
+        "apps", 
+        "game", 
+        "games", 
+        "marketing", 
+        "ad", 
+        "ads", 
+        "instagram", 
+        "oculus"
+      ], 
+      "link": "https://developers.facebook.com/", 
+      "name": "Facebook"
+    }, 
+    "indeed": {
+      "chip_keywords": [
+        "jobs", 
+        "search", 
+        "JSON"
+      ], 
+      "description": "The Indeed API is the same API which powers our mobile website. You can search for jobs, results are returned as JSON or XML.", 
+      "image": "indeed.png", 
+      "keywords": [
+        "job", 
+        "jobs", 
+        "search", 
+        "json", 
+        "xml", 
+        "rest", 
+        "restful"
+      ], 
+      "link": "http://www.indeed.com/publisher", 
+      "name": "Indeed"
+    }, 
     "microsoft": {
       "chip_keywords": [
         "Azure", 
@@ -107,6 +170,7 @@
         "azure", 
         "kinect", 
         "rest", 
+        "restful", 
         "bing", 
         "maps", 
         "search", 
@@ -189,6 +253,7 @@
         "directory", 
         "more", 
         "rest", 
+        "restful", 
         "any", 
         "language", 
         "sdk", 
@@ -343,7 +408,8 @@
         "db", 
         "amazon", 
         "gift", 
-        "cards"
+        "cards", 
+        "fb"
       ], 
       "name": "MongoDB", 
       "prizes": {
