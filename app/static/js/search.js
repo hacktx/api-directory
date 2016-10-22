@@ -25,7 +25,7 @@ var $loadJSONPromise = $.getJSON("data.json", function(data) {
         });
     }
     if (data.hasOwnProperty('challenges')) {
-        $.each(data.apis, function(name, values) {
+        $.each(data.challenges, function(name, values) {
             put(name.toLowerCase(), name.toLowerCase() + '-challenge');
             put('challenge', name.toLowerCase() + '-challenge');
             put('challenges', name.toLowerCase() + '-challenge');

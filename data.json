@@ -28,7 +28,9 @@
         "javascript", 
         "rest", 
         "restful", 
-        "jquery"
+        "jquery", 
+        "capital", 
+        "one"
       ], 
       "link": "http://api.reimaginebanking.com/", 
       "name": "Capital One"
@@ -65,7 +67,9 @@
         "ios", 
         "perl", 
         "storage", 
-        "distributed"
+        "distributed", 
+        "digital", 
+        "ocean"
       ], 
       "link": "https://developers.digitalocean.com/", 
       "name": "Digital Ocean"
@@ -95,7 +99,7 @@
         ".NET", 
         "cloud computing"
       ], 
-      "description": "Comprehensive API reference for working with Microsoft tools, services, and technologies. Whether you're building apps, developing websites, or working with the cloud, you'll find detailed syntax, code snippets, and best practices.", 
+      "description": "Comprehensive API reference for working with Microsoft tools, services, and technologies. Whether you're building apps, developing websites, or working with the cloud, you'll find detailed syntax, code snippets, and best practices.\nFor more information about Azure, visit <a target='_blank' href='https://aka.ms/azure.all'>aka.ms/azure.all</a>.", 
       "image": "microsoft.png", 
       "keywords": [
         "windows", 
@@ -141,6 +145,36 @@
       "link": "https://aka.ms/api.lib", 
       "name": "Microsoft"
     }, 
+    "mongodb": {
+      "chip_keywords": [
+        "nosql", 
+        "storage", 
+        "Node.JS"
+      ], 
+      "description": "MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas.", 
+      "image": "mongodb.png", 
+      "keywords": [
+        "mongo", 
+        "db", 
+        "database", 
+        "nosql", 
+        "storage", 
+        "json", 
+        "document", 
+        "shell", 
+        "node.js", 
+        "node", 
+        "javascript", 
+        "js", 
+        "python", 
+        "c++", 
+        "java", 
+        "c#", 
+        "ruby"
+      ], 
+      "link": "https://docs.mongodb.com/", 
+      "name": "MongoDB"
+    }, 
     "rapidapi": {
       "chip_keywords": [
         "REST", 
@@ -157,7 +191,11 @@
         "rest", 
         "any", 
         "language", 
-        "sdk"
+        "sdk", 
+        "rapid", 
+        "a16z", 
+        "andreesen", 
+        "horowitz"
       ], 
       "link": "http://rapidapi.com", 
       "name": "RapidAPI"
@@ -201,9 +239,161 @@
     }
   }, 
   "challenges": {
+    "1517": {
+      "chip_keywords": [
+        "1517", 
+        "grants"
+      ], 
+      "description": "", 
+      "image": "1517.png", 
+      "keywords": [
+        "money", 
+        "grant", 
+        "grants", 
+        "$1000", 
+        "1000", 
+        "cash", 
+        "three"
+      ], 
+      "name": "1517", 
+      "prizes": {
+        "Best Hack that Teams Really Need to Keep Building on Post Weekend": "Three $1000 grants"
+      }
+    }, 
     "bloomberg": {
+      "chip_keywords": [
+        "Bloomberg", 
+        "brain teasers", 
+        "prizes"
+      ], 
+      "description": "Bloomberg puzzles will be a series of brain teasers held throughout HackTX. Visit the Bloomberg table to learn more!", 
       "image": "bloomberg.png", 
-      "name": "Bloomberg Puzzles"
+      "keywords": [
+        "brain", 
+        "teasers", 
+        "prize", 
+        "prizes"
+      ], 
+      "name": "Bloomberg Puzzles", 
+      "prizes": {
+        "First Person to Solve Each Puzzle": "???"
+      }
+    }, 
+    "facebook": {
+      "chip_keywords": [
+        "Best Open and Connected Hack", 
+        "Oculus Rift"
+      ], 
+      "description": "", 
+      "image": "fb.png", 
+      "keywords": [
+        "oculus", 
+        "rift", 
+        "development", 
+        "kit", 
+        "2", 
+        "best", 
+        "open", 
+        "and", 
+        "connected", 
+        "hack"
+      ], 
+      "name": "Facebook", 
+      "prizes": {
+        "Best Open and Connected Hack": "Oculus Rift Development Kit 2 for each member of the winning team"
+      }
+    }, 
+    "microsoft": {
+      "chip_keywords": [
+        "API Prize", 
+        "Azure", 
+        "Surface Pro 4"
+      ], 
+      "description": "Microsoft is offering a prize for the best hack that uses its technology.", 
+      "image": "microsoft.png", 
+      "keywords": [
+        "windows", 
+        "office", 
+        "azure", 
+        "kinect", 
+        "bing", 
+        "surface", 
+        "pro", 
+        "4", 
+        "cover", 
+        "type", 
+        "api", 
+        "prize"
+      ], 
+      "name": "Microsoft", 
+      "prizes": {
+        "Best Use of Microsoft Technology": "One Surface Pro 4 + Type Cover for each member of the winning team"
+      }
+    }, 
+    "mongodb": {
+      "chip_keywords": [
+        "MongoDB", 
+        "Api Prize", 
+        "Amazon Gift Cards"
+      ], 
+      "description": "MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas.", 
+      "image": "mongodb.png", 
+      "keywords": [
+        "mongo", 
+        "db", 
+        "amazon", 
+        "gift", 
+        "cards"
+      ], 
+      "name": "MongoDB", 
+      "prizes": {
+        "Best Use of MongoDB": "Amazon Gift Cards"
+      }
+    }, 
+    "quantlab": {
+      "chip_keywords": [
+        "Quantlab Financial", 
+        "statistics", 
+        "drones"
+      ], 
+      "description": "Quantlab is an established, successful automated proprietary trading firm where talented minds go to attack interesting, challenging problems. We\u2019re different, both culturally and structurally, from a typical trading firm. The attitude here is collaborative, not cutthroat. Decisions are driven by science and technology. We trade our own money, so there\u2019s no selling. No customers. No distractions. Researchers focus on research. Technologists focus on technology. And brilliance is supported, celebrated and rewarded.", 
+      "image": "quantlab-financial.png", 
+      "keywords": [
+        "drones", 
+        "statistics", 
+        "probability", 
+        "stats", 
+        "finance", 
+        "financial"
+      ], 
+      "name": "Quantlab Financial", 
+      "prizes": {
+        "Best Use of Statistics": "Drones!!!"
+      }
+    }, 
+    "rapidapi": {
+      "chip_keywords": [
+        "RapidAPI", 
+        "drones"
+      ], 
+      "description": "RapidAPI let's developers create a fully functional backend for their app. We have turned every function from sending a text message to storing a file is a block, and all developers need to do is to drag-n-drop.\n\t\tRapidAPI lives in the cloud, so any backend created with RapidAPI is automatically hosted online. That way, our users don\u2019t have to worry about deploying and maintaining their apps - a process known to be time consuming, where mistakes cause long downtimes. Also, because we use state of the art servers in multiple datacenters around the world, users enjoy best in class performance out if the box.\n\t\tRapidAPI is also very easy to integrate in the app/website. Since RapidAPI uses a REST api for communications, users don\u2019t have to install any special libraries, and can use RapidAPI with any platform. Moreover, RapidAPI automatically generates code snippets to be copy and pasted into the front-end.", 
+      "image": "rapidapi.jpg", 
+      "keywords": [
+        "drones", 
+        "api", 
+        "apis", 
+        "a16z", 
+        "andreesen", 
+        "horowitz", 
+        "best", 
+        "use", 
+        "of", 
+        "through"
+      ], 
+      "name": "RapidAPI", 
+      "prizes": {
+        "Best Use of APIs through RapidAPI": "Drones!!!"
+      }
     }
   }
 }

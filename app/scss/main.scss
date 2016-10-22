@@ -65,7 +65,7 @@ main {
   background: white;
 }
 
-// styles begin here
+// custom styles begin here
 
 .tan-text {
     color: $freetail-tan;
@@ -89,6 +89,10 @@ main {
 
 .gray {
     background-color: $hacktx-gray !important;
+}
+
+.section-header {
+    padding-left: 15%;
 }
 
 .api-img-wrapper {

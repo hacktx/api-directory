@@ -1,5 +1,13 @@
 {
     "apis": {
+        "mongodb": {
+            "name": "MongoDB",
+            "image": "mongodb.png",
+            "description": "MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas.",
+            "link": "https://docs.mongodb.com/",
+            "keywords": ["mongo", "db", "database", "nosql", "storage", "json", "document", "shell", "node.js", "node", "javascript", "js", "python", "c++", "java", "c#", "ruby"],
+            "chip_keywords": ["nosql", "storage", "Node.JS"]
+        },
         "elastic": {
             "name": "Elastic",
             "image": "elastic.png",
@@ -13,7 +21,7 @@
             "image": "capital-one.png",
             "description": "Nessie is Capital One’s Hackathon API that gives you access to a multitude of real public-facing data - such as ATM and bank branch locations - along with mock customer account data. Use HTTP requests to set up peer-to-peer transactions, simulate a weekly paycheck, or even schedule bills for customers! This is all structured in a way that resembles how we actually run things here at Capital One.",
             "link": "http://api.reimaginebanking.com/",
-            "keywords": ["finance", "money", "financial", "banking", "data", "atm", "bank", "account", "transaction", "transactions", "bills", "nessie", "ios", "android", "ruby", "gem", "javascript", "rest", "restful", "jquery"],
+            "keywords": ["finance", "money", "financial", "banking", "data", "atm", "bank", "account", "transaction", "transactions", "bills", "nessie", "ios", "android", "ruby", "gem", "javascript", "rest", "restful", "jquery", "capital", "one"],
             "chip_keywords": ["REST", "banking", "jQuery"]
         },
         "twilio": {
@@ -29,13 +37,13 @@
             "image": "digital-ocean.png",
             "description": "The DigitalOcean API allows you to manage Droplets and resources within the DigitalOcean cloud in a simple, programmatic way using conventional HTTP requests. The endpoints are intuitive and powerful, allowing you to easily make calls to retrieve information or to execute actions.",
             "link": "https://developers.digitalocean.com/",
-            "keywords": ["cloud", "computing", "rest", "control", "panel", "oauth", "authentication", "metadata", "data", "ruby", "go", "laravel", "php", "python", ".net", "node", "node.js", "javascript", "scala", "java", "ios", "perl", "storage", "distributed"],
+            "keywords": ["cloud", "computing", "rest", "control", "panel", "oauth", "authentication", "metadata", "data", "ruby", "go", "laravel", "php", "python", ".net", "node", "node.js", "javascript", "scala", "java", "ios", "perl", "storage", "distributed", "digital", "ocean"],
             "chip_keywords": ["REST", "OAuth", "cloud computing"]
         },
         "microsoft": {
             "name": "Microsoft",
             "image": "microsoft.png",
-            "description": "Comprehensive API reference for working with Microsoft tools, services, and technologies. Whether you're building apps, developing websites, or working with the cloud, you'll find detailed syntax, code snippets, and best practices.",
+            "description": "Comprehensive API reference for working with Microsoft tools, services, and technologies. Whether you're building apps, developing websites, or working with the cloud, you'll find detailed syntax, code snippets, and best practices.\nFor more information about Azure, visit <a target='_blank' href='https://aka.ms/azure.all'>aka.ms/azure.all</a>.",
             "link": "https://aka.ms/api.lib",
             "keywords": ["windows", ".net", "azure", "kinect", "rest", "bing", "maps", "search", "ads", "ad", "yammer", "visual", "studio", "onedrive", "onenote", "office", "calendar", "contacts", "discovery", "service", "authentication", "graph", "sql", "media", "mobile", "notification", "notifications", "documentdb", "skype", "files", "file", "client", "server", "c#", "c++", "cloud", "computing", "website", "websites"],
             "chip_keywords": ["Azure", ".NET", "cloud computing"]
@@ -45,14 +53,80 @@
             "image": "rapidapi.jpg",
             "description": "RapidAPI let's developers create a fully functional backend for their app. We have turned every function from sending a text message to storing a file is a block, and all developers need to do is to drag-n-drop.\n\t\tRapidAPI lives in the cloud, so any backend created with RapidAPI is automatically hosted online. That way, our users don’t have to worry about deploying and maintaining their apps - a process known to be time consuming, where mistakes cause long downtimes. Also, because we use state of the art servers in multiple datacenters around the world, users enjoy best in class performance out if the box.\n\t\tRapidAPI is also very easy to integrate in the app/website. Since RapidAPI uses a REST api for communications, users don’t have to install any special libraries, and can use RapidAPI with any platform. Moreover, RapidAPI automatically generates code snippets to be copy and pasted into the front-end.",
             "link": "http://rapidapi.com",
-            "keywords": ["apis", "api", "directory", "more", "rest", "any", "language", "sdk"],
+            "keywords": ["apis", "api", "directory", "more", "rest", "any", "language", "sdk", "rapid", "a16z", "andreesen", "horowitz"],
             "chip_keywords": ["REST", "APIs", "more APIs"]
         }
     },
     "challenges": {
         "bloomberg": {
             "name": "Bloomberg Puzzles",
-            "image": "bloomberg.png"
+            "image": "bloomberg.png",
+            "description": "Bloomberg puzzles will be a series of brain teasers held throughout HackTX. Visit the Bloomberg table to learn more!",
+            "prizes": {
+                "First Person to Solve Each Puzzle": "???"
+            },
+            "keywords": ["brain", "teasers", "prize", "prizes"],
+            "chip_keywords": ["Bloomberg", "brain teasers", "prizes"]
+        },
+        "microsoft": {
+            "name": "Microsoft",
+            "image": "microsoft.png",
+            "description": "Microsoft is offering a prize for the best hack that uses its technology.",
+            "prizes": {
+                "Best Use of Microsoft Technology": "One Surface Pro 4 + Type Cover for each member of the winning team"
+            },
+            "keywords": ["windows", "office", "azure", "kinect", "bing", "surface", "pro", "4", "cover", "type", "api", "prize"],
+            "chip_keywords": ["API Prize", "Azure", "Surface Pro 4"]
+        },
+        "quantlab": {
+            "name": "Quantlab Financial",
+            "image": "quantlab-financial.png",
+            "description": "Quantlab is an established, successful automated proprietary trading firm where talented minds go to attack interesting, challenging problems. We’re different, both culturally and structurally, from a typical trading firm. The attitude here is collaborative, not cutthroat. Decisions are driven by science and technology. We trade our own money, so there’s no selling. No customers. No distractions. Researchers focus on research. Technologists focus on technology. And brilliance is supported, celebrated and rewarded.",
+            "prizes": {
+                "Best Use of Statistics": "Drones!!!"
+            },
+            "keywords": ["drones", "statistics", "probability", "stats", "finance", "financial"],
+            "chip_keywords": ["Quantlab Financial", "statistics", "drones"]
+        },
+        "rapidapi": {
+            "name": "RapidAPI",
+            "image": "rapidapi.jpg",
+            "description": "RapidAPI let's developers create a fully functional backend for their app. We have turned every function from sending a text message to storing a file is a block, and all developers need to do is to drag-n-drop.\n\t\tRapidAPI lives in the cloud, so any backend created with RapidAPI is automatically hosted online. That way, our users don’t have to worry about deploying and maintaining their apps - a process known to be time consuming, where mistakes cause long downtimes. Also, because we use state of the art servers in multiple datacenters around the world, users enjoy best in class performance out if the box.\n\t\tRapidAPI is also very easy to integrate in the app/website. Since RapidAPI uses a REST api for communications, users don’t have to install any special libraries, and can use RapidAPI with any platform. Moreover, RapidAPI automatically generates code snippets to be copy and pasted into the front-end.",
+            "prizes": {
+                "Best Use of APIs through RapidAPI": "Drones!!!"
+            },
+            "keywords": ["drones", "api", "apis", "a16z", "andreesen", "horowitz", "best", "use", "of", "through"],
+            "chip_keywords": ["RapidAPI", "drones"]
+        },
+        "1517": {
+            "name": "1517",
+            "image": "1517.png",
+            "description": "",
+            "prizes": {
+                "Best Hack that Teams Really Need to Keep Building on Post Weekend": "Three $1000 grants"
+            },
+            "keywords": ["money", "grant", "grants", "$1000", "1000", "cash", "three"],
+            "chip_keywords": ["1517", "grants"]
+        },
+        "facebook": {
+            "name": "Facebook",
+            "image": "fb.png",
+            "description": "",
+            "prizes": {
+                "Best Open and Connected Hack": "Oculus Rift Development Kit 2 for each member of the winning team"
+            },
+            "keywords": ["oculus", "rift", "development", "kit", "2", "best", "open", "and", "connected", "hack"],
+            "chip_keywords": ["Best Open and Connected Hack", "Oculus Rift"]
+        },
+        "mongodb": {
+            "name": "MongoDB",
+            "image": "mongodb.png",
+            "description": "MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas.",
+            "prizes": {
+                "Best Use of MongoDB": "Amazon Gift Cards"
+            },
+            "keywords": ["mongo", "db", "amazon", "gift", "cards"],
+            "chip_keywords": ["MongoDB", "Api Prize", "Amazon Gift Cards"]
         }
     }
 }

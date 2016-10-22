@@ -43,7 +43,7 @@
 <div class="section freetail-blue">
   <div class="container">
     <h1 class="center-align">
-      <a href="." class="tan-text">HackTX API Directory</a>
+      <a href="." class="tan-text">HackTX API Portal</a>
     </h1>
     
 <div class="input-field search-div">
@@ -59,8 +59,37 @@
     <main>
       
 <div class="section">
+  <h2 class="tan-text section-header">APIs</h2>
   <div class="container">
     <div class="row">
+      
+      <div class="col s12 l6 api-card-div" id="mongodb">
+        <div class="card small hoverable">
+          <div class="center api-img-wrapper">
+            <img src="static/img/partners/mongodb.png" class="api-img">
+          </div>
+          <div class="card-content">
+            <p class="block-with-text modal-trigger" href="#mongodb-modal">
+            MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas.
+            </p>
+          </div>
+          <div class="card-action">
+            <div class="card-links">
+              <a class="modal-trigger" href="#mongodb-modal">More Info</a>
+              <a target="_blank" href="https://docs.mongodb.com/">Visit Website</a>
+            </div>
+            <div class="chip-links">
+              
+              <div class="chip keyword-chip">nosql</div>
+              
+              <div class="chip keyword-chip">storage</div>
+              
+              <div class="chip keyword-chip">Node.JS</div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
       
       <div class="col s12 l6 api-card-div" id="twilio">
         <div class="card small hoverable">
@@ -91,30 +120,29 @@ Twilio is a cloud communications platform that gives you building blocks to add 
         </div>
       </div>
       
-      <div class="col s12 l6 api-card-div" id="rapidapi">
+      <div class="col s12 l6 api-card-div" id="microsoft">
         <div class="card small hoverable">
           <div class="center api-img-wrapper">
-            <img src="static/img/partners/rapidapi.jpg" class="api-img">
+            <img src="static/img/partners/microsoft.png" class="api-img">
           </div>
           <div class="card-content">
-            <p class="block-with-text modal-trigger" href="#rapidapi-modal">
-            RapidAPI let&#39;s developers create a fully functional backend for their app. We have turned every function from sending a text message to storing a file is a block, and all developers need to do is to drag-n-drop.
-		RapidAPI lives in the cloud, so any backend created with RapidAPI is automatically hosted online. That way, our users don’t have to worry about deploying and maintaining their apps - a process known to be time consuming, where mistakes cause long downtimes. Also, because we use state of the art servers in multiple datacenters around the world, users enjoy best in class performance out if the box.
-		RapidAPI is also very easy to integrate in the app/website. Since RapidAPI uses a REST api for communications, users don’t have to install any special libraries, and can use RapidAPI with any platform. Moreover, RapidAPI automatically generates code snippets to be copy and pasted into the front-end.
+            <p class="block-with-text modal-trigger" href="#microsoft-modal">
+            Comprehensive API reference for working with Microsoft tools, services, and technologies. Whether you're building apps, developing websites, or working with the cloud, you'll find detailed syntax, code snippets, and best practices.
+For more information about Azure, visit <a target='_blank' href='https://aka.ms/azure.all'>aka.ms/azure.all</a>.
             </p>
           </div>
           <div class="card-action">
             <div class="card-links">
-              <a class="modal-trigger" href="#rapidapi-modal">More Info</a>
-              <a target="_blank" href="http://rapidapi.com">Visit Website</a>
+              <a class="modal-trigger" href="#microsoft-modal">More Info</a>
+              <a target="_blank" href="https://aka.ms/api.lib">Visit Website</a>
             </div>
             <div class="chip-links">
               
-              <div class="chip keyword-chip">REST</div>
+              <div class="chip keyword-chip">Azure</div>
               
-              <div class="chip keyword-chip">APIs</div>
+              <div class="chip keyword-chip">.NET</div>
               
-              <div class="chip keyword-chip">more APIs</div>
+              <div class="chip keyword-chip">cloud computing</div>
               
             </div>
           </div>
@@ -149,6 +177,64 @@ Twilio is a cloud communications platform that gives you building blocks to add 
         </div>
       </div>
       
+      <div class="col s12 l6 api-card-div" id="rapidapi">
+        <div class="card small hoverable">
+          <div class="center api-img-wrapper">
+            <img src="static/img/partners/rapidapi.jpg" class="api-img">
+          </div>
+          <div class="card-content">
+            <p class="block-with-text modal-trigger" href="#rapidapi-modal">
+            RapidAPI let's developers create a fully functional backend for their app. We have turned every function from sending a text message to storing a file is a block, and all developers need to do is to drag-n-drop.
+		RapidAPI lives in the cloud, so any backend created with RapidAPI is automatically hosted online. That way, our users don’t have to worry about deploying and maintaining their apps - a process known to be time consuming, where mistakes cause long downtimes. Also, because we use state of the art servers in multiple datacenters around the world, users enjoy best in class performance out if the box.
+		RapidAPI is also very easy to integrate in the app/website. Since RapidAPI uses a REST api for communications, users don’t have to install any special libraries, and can use RapidAPI with any platform. Moreover, RapidAPI automatically generates code snippets to be copy and pasted into the front-end.
+            </p>
+          </div>
+          <div class="card-action">
+            <div class="card-links">
+              <a class="modal-trigger" href="#rapidapi-modal">More Info</a>
+              <a target="_blank" href="http://rapidapi.com">Visit Website</a>
+            </div>
+            <div class="chip-links">
+              
+              <div class="chip keyword-chip">REST</div>
+              
+              <div class="chip keyword-chip">APIs</div>
+              
+              <div class="chip keyword-chip">more APIs</div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col s12 l6 api-card-div" id="elastic">
+        <div class="card small hoverable">
+          <div class="center api-img-wrapper">
+            <img src="static/img/partners/elastic.png" class="api-img">
+          </div>
+          <div class="card-content">
+            <p class="block-with-text modal-trigger" href="#elastic-modal">
+            Elastic believes getting immediate, actionable insight from data matters. As the company behind the open source projects — Elasticsearch, Logstash, Kibana, and Beats — designed to take data from any source and search, analyze, and visualize it in real time, Elastic is helping people make sense of data. From stock quotes to Twitter streams, Apache logs to WordPress blogs, our products are extending what's possible with data, delivering on the promise that good things come from connecting the dots.
+            </p>
+          </div>
+          <div class="card-action">
+            <div class="card-links">
+              <a class="modal-trigger" href="#elastic-modal">More Info</a>
+              <a target="_blank" href="https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/index.html">Visit Website</a>
+            </div>
+            <div class="chip-links">
+              
+              <div class="chip keyword-chip">search</div>
+              
+              <div class="chip keyword-chip">Java</div>
+              
+              <div class="chip keyword-chip">Hadoop</div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
       <div class="col s12 l6 api-card-div" id="digitalocean">
         <div class="card small hoverable">
           <div class="center api-img-wrapper">
@@ -177,56 +263,227 @@ Twilio is a cloud communications platform that gives you building blocks to add 
         </div>
       </div>
       
-      <div class="col s12 l6 api-card-div" id="microsoft">
+    </div>
+  </div>
+  <div class="divider"></div>
+  <h2 class="tan-text section-header">Company Challenges</h2>
+  <div class="container">
+    <div class="row">
+      
+      <div class="col s12 l6 api-card-div" id="mongodb-challenge">
         <div class="card small hoverable">
           <div class="center api-img-wrapper">
-            <img src="static/img/partners/microsoft.png" class="api-img">
+            <img src="static/img/partners/mongodb.png" class="api-img">
           </div>
           <div class="card-content">
-            <p class="block-with-text modal-trigger" href="#microsoft-modal">
-            Comprehensive API reference for working with Microsoft tools, services, and technologies. Whether you&#39;re building apps, developing websites, or working with the cloud, you&#39;ll find detailed syntax, code snippets, and best practices.
+            <p class="block-with-text modal-trigger" href="#mongodb-challenge-modal">
+              MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas.
+              
+              <br>
+              Best Use of MongoDB: Amazon Gift Cards
+              
             </p>
           </div>
           <div class="card-action">
             <div class="card-links">
-              <a class="modal-trigger" href="#microsoft-modal">More Info</a>
-              <a target="_blank" href="https://aka.ms/api.lib">Visit Website</a>
+              <a class="modal-trigger" href="#mongodb-challenge-modal">More Info</a>
+              
             </div>
             <div class="chip-links">
               
-              <div class="chip keyword-chip">Azure</div>
+              <div class="chip keyword-chip">MongoDB</div>
               
-              <div class="chip keyword-chip">.NET</div>
+              <div class="chip keyword-chip">Api Prize</div>
               
-              <div class="chip keyword-chip">cloud computing</div>
+              <div class="chip keyword-chip">Amazon Gift Cards</div>
               
             </div>
           </div>
         </div>
       </div>
       
-      <div class="col s12 l6 api-card-div" id="elastic">
+      <div class="col s12 l6 api-card-div" id="microsoft-challenge">
         <div class="card small hoverable">
           <div class="center api-img-wrapper">
-            <img src="static/img/partners/elastic.png" class="api-img">
+            <img src="static/img/partners/microsoft.png" class="api-img">
           </div>
           <div class="card-content">
-            <p class="block-with-text modal-trigger" href="#elastic-modal">
-            Elastic believes getting immediate, actionable insight from data matters. As the company behind the open source projects — Elasticsearch, Logstash, Kibana, and Beats — designed to take data from any source and search, analyze, and visualize it in real time, Elastic is helping people make sense of data. From stock quotes to Twitter streams, Apache logs to WordPress blogs, our products are extending what&#39;s possible with data, delivering on the promise that good things come from connecting the dots.
+            <p class="block-with-text modal-trigger" href="#microsoft-challenge-modal">
+              Microsoft is offering a prize for the best hack that uses its technology.
+              
+              <br>
+              Best Use of Microsoft Technology: One Surface Pro 4 + Type Cover for each member of the winning team
+              
             </p>
           </div>
           <div class="card-action">
             <div class="card-links">
-              <a class="modal-trigger" href="#elastic-modal">More Info</a>
-              <a target="_blank" href="https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/index.html">Visit Website</a>
+              <a class="modal-trigger" href="#microsoft-challenge-modal">More Info</a>
+              
             </div>
             <div class="chip-links">
               
-              <div class="chip keyword-chip">search</div>
+              <div class="chip keyword-chip">API Prize</div>
               
-              <div class="chip keyword-chip">Java</div>
+              <div class="chip keyword-chip">Azure</div>
               
-              <div class="chip keyword-chip">Hadoop</div>
+              <div class="chip keyword-chip">Surface Pro 4</div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col s12 l6 api-card-div" id="bloomberg-challenge">
+        <div class="card small hoverable">
+          <div class="center api-img-wrapper">
+            <img src="static/img/partners/bloomberg.png" class="api-img">
+          </div>
+          <div class="card-content">
+            <p class="block-with-text modal-trigger" href="#bloomberg-challenge-modal">
+              Bloomberg puzzles will be a series of brain teasers held throughout HackTX. Visit the Bloomberg table to learn more!
+              
+              <br>
+              First Person to Solve Each Puzzle: ???
+              
+            </p>
+          </div>
+          <div class="card-action">
+            <div class="card-links">
+              <a class="modal-trigger" href="#bloomberg-challenge-modal">More Info</a>
+              
+            </div>
+            <div class="chip-links">
+              
+              <div class="chip keyword-chip">Bloomberg</div>
+              
+              <div class="chip keyword-chip">brain teasers</div>
+              
+              <div class="chip keyword-chip">prizes</div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col s12 l6 api-card-div" id="quantlab-challenge">
+        <div class="card small hoverable">
+          <div class="center api-img-wrapper">
+            <img src="static/img/partners/quantlab-financial.png" class="api-img">
+          </div>
+          <div class="card-content">
+            <p class="block-with-text modal-trigger" href="#quantlab-challenge-modal">
+              Quantlab is an established, successful automated proprietary trading firm where talented minds go to attack interesting, challenging problems. We’re different, both culturally and structurally, from a typical trading firm. The attitude here is collaborative, not cutthroat. Decisions are driven by science and technology. We trade our own money, so there’s no selling. No customers. No distractions. Researchers focus on research. Technologists focus on technology. And brilliance is supported, celebrated and rewarded.
+              
+              <br>
+              Best Use of Statistics: Drones!!!
+              
+            </p>
+          </div>
+          <div class="card-action">
+            <div class="card-links">
+              <a class="modal-trigger" href="#quantlab-challenge-modal">More Info</a>
+              
+            </div>
+            <div class="chip-links">
+              
+              <div class="chip keyword-chip">Quantlab Financial</div>
+              
+              <div class="chip keyword-chip">statistics</div>
+              
+              <div class="chip keyword-chip">drones</div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col s12 l6 api-card-div" id="rapidapi-challenge">
+        <div class="card small hoverable">
+          <div class="center api-img-wrapper">
+            <img src="static/img/partners/rapidapi.jpg" class="api-img">
+          </div>
+          <div class="card-content">
+            <p class="block-with-text modal-trigger" href="#rapidapi-challenge-modal">
+              RapidAPI let's developers create a fully functional backend for their app. We have turned every function from sending a text message to storing a file is a block, and all developers need to do is to drag-n-drop.
+		RapidAPI lives in the cloud, so any backend created with RapidAPI is automatically hosted online. That way, our users don’t have to worry about deploying and maintaining their apps - a process known to be time consuming, where mistakes cause long downtimes. Also, because we use state of the art servers in multiple datacenters around the world, users enjoy best in class performance out if the box.
+		RapidAPI is also very easy to integrate in the app/website. Since RapidAPI uses a REST api for communications, users don’t have to install any special libraries, and can use RapidAPI with any platform. Moreover, RapidAPI automatically generates code snippets to be copy and pasted into the front-end.
+              
+              <br>
+              Best Use of APIs through RapidAPI: Drones!!!
+              
+            </p>
+          </div>
+          <div class="card-action">
+            <div class="card-links">
+              <a class="modal-trigger" href="#rapidapi-challenge-modal">More Info</a>
+              
+            </div>
+            <div class="chip-links">
+              
+              <div class="chip keyword-chip">RapidAPI</div>
+              
+              <div class="chip keyword-chip">drones</div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col s12 l6 api-card-div" id="1517-challenge">
+        <div class="card small hoverable">
+          <div class="center api-img-wrapper">
+            <img src="static/img/partners/1517.png" class="api-img">
+          </div>
+          <div class="card-content">
+            <p class="block-with-text modal-trigger" href="#1517-challenge-modal">
+              
+              
+              <br>
+              Best Hack that Teams Really Need to Keep Building on Post Weekend: Three $1000 grants
+              
+            </p>
+          </div>
+          <div class="card-action">
+            <div class="card-links">
+              <a class="modal-trigger" href="#1517-challenge-modal">More Info</a>
+              
+            </div>
+            <div class="chip-links">
+              
+              <div class="chip keyword-chip">1517</div>
+              
+              <div class="chip keyword-chip">grants</div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col s12 l6 api-card-div" id="facebook-challenge">
+        <div class="card small hoverable">
+          <div class="center api-img-wrapper">
+            <img src="static/img/partners/fb.png" class="api-img">
+          </div>
+          <div class="card-content">
+            <p class="block-with-text modal-trigger" href="#facebook-challenge-modal">
+              
+              
+              <br>
+              Best Open and Connected Hack: Oculus Rift Development Kit 2 for each member of the winning team
+              
+            </p>
+          </div>
+          <div class="card-action">
+            <div class="card-links">
+              <a class="modal-trigger" href="#facebook-challenge-modal">More Info</a>
+              
+            </div>
+            <div class="chip-links">
+              
+              <div class="chip keyword-chip">Best Open and Connected Hack</div>
+              
+              <div class="chip keyword-chip">Oculus Rift</div>
               
             </div>
           </div>
@@ -234,6 +491,21 @@ Twilio is a cloud communications platform that gives you building blocks to add 
       </div>
       
     </div>
+  </div>
+</div>
+
+<div id="mongodb-modal" class="modal">
+  <div class="modal-content">
+    <h3 class="modal-title">MongoDB</h3>
+    <div class="divider"></div>
+    <h4 class="modal-header">Description</h4>
+    
+    <p>MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas.</p>
+    
+  </div>
+  <div class="modal-footer">
+    <a class="modal-action modal-close waves-effect waves-hacktx btn-flat">Close</a>
+    <a target="_blank" class="waves-effect waves-hacktx btn-flat" href="https://docs.mongodb.com/">Visit Website</a>
   </div>
 </div>
 
@@ -254,22 +526,20 @@ Twilio is a cloud communications platform that gives you building blocks to add 
   </div>
 </div>
 
-<div id="rapidapi-modal" class="modal">
+<div id="microsoft-modal" class="modal">
   <div class="modal-content">
-    <h3 class="modal-title">RapidAPI</h3>
+    <h3 class="modal-title">Microsoft</h3>
     <div class="divider"></div>
     <h4 class="modal-header">Description</h4>
     
-    <p>RapidAPI let&#39;s developers create a fully functional backend for their app. We have turned every function from sending a text message to storing a file is a block, and all developers need to do is to drag-n-drop.</p>
+    <p>Comprehensive API reference for working with Microsoft tools, services, and technologies. Whether you're building apps, developing websites, or working with the cloud, you'll find detailed syntax, code snippets, and best practices.</p>
     
-    <p>		RapidAPI lives in the cloud, so any backend created with RapidAPI is automatically hosted online. That way, our users don’t have to worry about deploying and maintaining their apps - a process known to be time consuming, where mistakes cause long downtimes. Also, because we use state of the art servers in multiple datacenters around the world, users enjoy best in class performance out if the box.</p>
-    
-    <p>		RapidAPI is also very easy to integrate in the app/website. Since RapidAPI uses a REST api for communications, users don’t have to install any special libraries, and can use RapidAPI with any platform. Moreover, RapidAPI automatically generates code snippets to be copy and pasted into the front-end.</p>
+    <p>For more information about Azure, visit <a target='_blank' href='https://aka.ms/azure.all'>aka.ms/azure.all</a>.</p>
     
   </div>
   <div class="modal-footer">
     <a class="modal-action modal-close waves-effect waves-hacktx btn-flat">Close</a>
-    <a target="_blank" class="waves-effect waves-hacktx btn-flat" href="http://rapidapi.com">Visit Website</a>
+    <a target="_blank" class="waves-effect waves-hacktx btn-flat" href="https://aka.ms/api.lib">Visit Website</a>
   </div>
 </div>
 
@@ -288,6 +558,40 @@ Twilio is a cloud communications platform that gives you building blocks to add 
   </div>
 </div>
 
+<div id="rapidapi-modal" class="modal">
+  <div class="modal-content">
+    <h3 class="modal-title">RapidAPI</h3>
+    <div class="divider"></div>
+    <h4 class="modal-header">Description</h4>
+    
+    <p>RapidAPI let's developers create a fully functional backend for their app. We have turned every function from sending a text message to storing a file is a block, and all developers need to do is to drag-n-drop.</p>
+    
+    <p>		RapidAPI lives in the cloud, so any backend created with RapidAPI is automatically hosted online. That way, our users don’t have to worry about deploying and maintaining their apps - a process known to be time consuming, where mistakes cause long downtimes. Also, because we use state of the art servers in multiple datacenters around the world, users enjoy best in class performance out if the box.</p>
+    
+    <p>		RapidAPI is also very easy to integrate in the app/website. Since RapidAPI uses a REST api for communications, users don’t have to install any special libraries, and can use RapidAPI with any platform. Moreover, RapidAPI automatically generates code snippets to be copy and pasted into the front-end.</p>
+    
+  </div>
+  <div class="modal-footer">
+    <a class="modal-action modal-close waves-effect waves-hacktx btn-flat">Close</a>
+    <a target="_blank" class="waves-effect waves-hacktx btn-flat" href="http://rapidapi.com">Visit Website</a>
+  </div>
+</div>
+
+<div id="elastic-modal" class="modal">
+  <div class="modal-content">
+    <h3 class="modal-title">Elastic</h3>
+    <div class="divider"></div>
+    <h4 class="modal-header">Description</h4>
+    
+    <p>Elastic believes getting immediate, actionable insight from data matters. As the company behind the open source projects — Elasticsearch, Logstash, Kibana, and Beats — designed to take data from any source and search, analyze, and visualize it in real time, Elastic is helping people make sense of data. From stock quotes to Twitter streams, Apache logs to WordPress blogs, our products are extending what's possible with data, delivering on the promise that good things come from connecting the dots.</p>
+    
+  </div>
+  <div class="modal-footer">
+    <a class="modal-action modal-close waves-effect waves-hacktx btn-flat">Close</a>
+    <a target="_blank" class="waves-effect waves-hacktx btn-flat" href="https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/index.html">Visit Website</a>
+  </div>
+</div>
+
 <div id="digitalocean-modal" class="modal">
   <div class="modal-content">
     <h3 class="modal-title">Digital Ocean</h3>
@@ -303,33 +607,155 @@ Twilio is a cloud communications platform that gives you building blocks to add 
   </div>
 </div>
 
-<div id="microsoft-modal" class="modal">
+
+<div id="mongodb-challenge-modal" class="modal">
+  <div class="modal-content">
+    <h3 class="modal-title">MongoDB</h3>
+    <div class="divider"></div>
+    <h4 class="modal-header">Description</h4>
+    
+    <p>MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas.</p>
+    
+    <div class="divider"></div>
+    <h4 class="modal-header">Prizes</h4>
+    
+    <h5>Best Use of MongoDB</h5>
+    <p>Amazon Gift Cards</h5>
+    
+  </div>
+  <div class="modal-footer">
+    <a class="modal-action modal-close waves-effect waves-hacktx btn-flat">Close</a>
+    
+  </div>
+</div>
+
+<div id="microsoft-challenge-modal" class="modal">
   <div class="modal-content">
     <h3 class="modal-title">Microsoft</h3>
     <div class="divider"></div>
     <h4 class="modal-header">Description</h4>
     
-    <p>Comprehensive API reference for working with Microsoft tools, services, and technologies. Whether you&#39;re building apps, developing websites, or working with the cloud, you&#39;ll find detailed syntax, code snippets, and best practices.</p>
+    <p>Microsoft is offering a prize for the best hack that uses its technology.</p>
+    
+    <div class="divider"></div>
+    <h4 class="modal-header">Prizes</h4>
+    
+    <h5>Best Use of Microsoft Technology</h5>
+    <p>One Surface Pro 4 + Type Cover for each member of the winning team</h5>
     
   </div>
   <div class="modal-footer">
     <a class="modal-action modal-close waves-effect waves-hacktx btn-flat">Close</a>
-    <a target="_blank" class="waves-effect waves-hacktx btn-flat" href="https://aka.ms/api.lib">Visit Website</a>
+    
   </div>
 </div>
 
-<div id="elastic-modal" class="modal">
+<div id="bloomberg-challenge-modal" class="modal">
   <div class="modal-content">
-    <h3 class="modal-title">Elastic</h3>
+    <h3 class="modal-title">Bloomberg Puzzles</h3>
     <div class="divider"></div>
     <h4 class="modal-header">Description</h4>
     
-    <p>Elastic believes getting immediate, actionable insight from data matters. As the company behind the open source projects — Elasticsearch, Logstash, Kibana, and Beats — designed to take data from any source and search, analyze, and visualize it in real time, Elastic is helping people make sense of data. From stock quotes to Twitter streams, Apache logs to WordPress blogs, our products are extending what&#39;s possible with data, delivering on the promise that good things come from connecting the dots.</p>
+    <p>Bloomberg puzzles will be a series of brain teasers held throughout HackTX. Visit the Bloomberg table to learn more!</p>
+    
+    <div class="divider"></div>
+    <h4 class="modal-header">Prizes</h4>
+    
+    <h5>First Person to Solve Each Puzzle</h5>
+    <p>???</h5>
     
   </div>
   <div class="modal-footer">
     <a class="modal-action modal-close waves-effect waves-hacktx btn-flat">Close</a>
-    <a target="_blank" class="waves-effect waves-hacktx btn-flat" href="https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/index.html">Visit Website</a>
+    
+  </div>
+</div>
+
+<div id="quantlab-challenge-modal" class="modal">
+  <div class="modal-content">
+    <h3 class="modal-title">Quantlab Financial</h3>
+    <div class="divider"></div>
+    <h4 class="modal-header">Description</h4>
+    
+    <p>Quantlab is an established, successful automated proprietary trading firm where talented minds go to attack interesting, challenging problems. We’re different, both culturally and structurally, from a typical trading firm. The attitude here is collaborative, not cutthroat. Decisions are driven by science and technology. We trade our own money, so there’s no selling. No customers. No distractions. Researchers focus on research. Technologists focus on technology. And brilliance is supported, celebrated and rewarded.</p>
+    
+    <div class="divider"></div>
+    <h4 class="modal-header">Prizes</h4>
+    
+    <h5>Best Use of Statistics</h5>
+    <p>Drones!!!</h5>
+    
+  </div>
+  <div class="modal-footer">
+    <a class="modal-action modal-close waves-effect waves-hacktx btn-flat">Close</a>
+    
+  </div>
+</div>
+
+<div id="rapidapi-challenge-modal" class="modal">
+  <div class="modal-content">
+    <h3 class="modal-title">RapidAPI</h3>
+    <div class="divider"></div>
+    <h4 class="modal-header">Description</h4>
+    
+    <p>RapidAPI let's developers create a fully functional backend for their app. We have turned every function from sending a text message to storing a file is a block, and all developers need to do is to drag-n-drop.</p>
+    
+    <p>		RapidAPI lives in the cloud, so any backend created with RapidAPI is automatically hosted online. That way, our users don’t have to worry about deploying and maintaining their apps - a process known to be time consuming, where mistakes cause long downtimes. Also, because we use state of the art servers in multiple datacenters around the world, users enjoy best in class performance out if the box.</p>
+    
+    <p>		RapidAPI is also very easy to integrate in the app/website. Since RapidAPI uses a REST api for communications, users don’t have to install any special libraries, and can use RapidAPI with any platform. Moreover, RapidAPI automatically generates code snippets to be copy and pasted into the front-end.</p>
+    
+    <div class="divider"></div>
+    <h4 class="modal-header">Prizes</h4>
+    
+    <h5>Best Use of APIs through RapidAPI</h5>
+    <p>Drones!!!</h5>
+    
+  </div>
+  <div class="modal-footer">
+    <a class="modal-action modal-close waves-effect waves-hacktx btn-flat">Close</a>
+    
+  </div>
+</div>
+
+<div id="1517-challenge-modal" class="modal">
+  <div class="modal-content">
+    <h3 class="modal-title">1517</h3>
+    <div class="divider"></div>
+    <h4 class="modal-header">Description</h4>
+    
+    <p></p>
+    
+    <div class="divider"></div>
+    <h4 class="modal-header">Prizes</h4>
+    
+    <h5>Best Hack that Teams Really Need to Keep Building on Post Weekend</h5>
+    <p>Three $1000 grants</h5>
+    
+  </div>
+  <div class="modal-footer">
+    <a class="modal-action modal-close waves-effect waves-hacktx btn-flat">Close</a>
+    
+  </div>
+</div>
+
+<div id="facebook-challenge-modal" class="modal">
+  <div class="modal-content">
+    <h3 class="modal-title">Facebook</h3>
+    <div class="divider"></div>
+    <h4 class="modal-header">Description</h4>
+    
+    <p></p>
+    
+    <div class="divider"></div>
+    <h4 class="modal-header">Prizes</h4>
+    
+    <h5>Best Open and Connected Hack</h5>
+    <p>Oculus Rift Development Kit 2 for each member of the winning team</h5>
+    
+  </div>
+  <div class="modal-footer">
+    <a class="modal-action modal-close waves-effect waves-hacktx btn-flat">Close</a>
+    
   </div>
 </div>
 
@@ -366,5 +792,17 @@ Twilio is a cloud communications platform that gives you building blocks to add 
         </div>
       </div>
     </footer>
+    
+<!--<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-80884741-4', 'auto');
+  ga('send', 'pageview');
+
+</script>-->
+
   </body>
 </html>
