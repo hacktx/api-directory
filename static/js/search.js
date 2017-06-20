@@ -57,6 +57,8 @@ $(document).ready(function() {
         return queryParams['query'];
     }
 
+    var errorToast = null;
+
     function runQuery(query) {
         var apiSet = null;
         if (query) {
@@ -86,9 +88,12 @@ $(document).ready(function() {
         $('#search').val(query);
         if (query && (!apiSet || apiSet.size === 0)) {
             $('#search').addClass('invalid');
-            Materialize.toast('Could not find any results!', 4000, 'light-red');
+            if($('.errorToast').length == 0) {
+            	Materialize.toast('Could not find any results!', 4000, 'light-red errorToast');
+            }
         } else {
-            $('#search').removeClass('invalid');
+        	$('.errorToast').fadeOut();
+        	$('#search').removeClass('invalid');
         }
     }
 
@@ -102,9 +107,17 @@ $(document).ready(function() {
         if (parsedQuery) {
             runQuery(parsedQuery);
         }
-        $('#search').change(function(e) {
-            var query = $('#search').val();
-            runQuery(query);
-        });
+    });
+
+    $('#search').on("keyup", function(e) {
+        var query = $('#search').val();
+        var parsedQuery = parseQuery(query);
+        runQuery(query);
+    });
+
+    $('#search').on("change", function(e) {
+        var query = $('#search').val();
+        var parsedQuery = parseQuery(query);
+        runQuery(query);
     });
 });
