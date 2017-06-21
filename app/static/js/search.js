@@ -89,11 +89,13 @@ $(document).ready(function() {
         if (query && (!apiSet || apiSet.size === 0)) {
             $('#search').addClass('invalid');
             if($('.errorToast').length == 0) {
-            	Materialize.toast('Could not find any results!', 4000, 'light-red errorToast');
+            	Materialize.toast('Could not find any results!', 1000000000000, 'light-red errorToast');
+            } else {
+                $('.errorToast').slideDown("fast");
             }
         } else {
-        	$('.errorToast').fadeOut();
-        	$('#search').removeClass('invalid');
+            $('.errorToast').slideUp("fast");
+            $('#search').removeClass('invalid');
         }
     }
 
