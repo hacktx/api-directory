@@ -1,5 +1,11 @@
+var choices = [];
 function put(key, value) {
     var list = sessionStorage.getItem(key);
+    
+    if(choices.indexOf(key.toLowerCase()) == -1) {
+        choices.push(key);
+    }
+
     if (list) {
         sessionStorage.setItem(key, list.includes(value) ? list : list + " " + value);
     } else {
@@ -13,6 +19,7 @@ function get(key) {
 }
 
 sessionStorage.clear();
+
 var $loadJSONPromise = $.getJSON("data.json", function(data) {
     if (data.hasOwnProperty('apis')) {
         $.each(data.apis, function(name, values) {
@@ -36,7 +43,21 @@ var $loadJSONPromise = $.getJSON("data.json", function(data) {
     }
 });
 
+
 $(document).ready(function() {
+
+    new autoComplete({
+        selector: 'input[name="query"]',
+        minChars: 2,
+        source: function(term, suggest){
+            term = term.toLowerCase();
+            var matches = [];
+            for (i=0; i<choices.length; i++)
+                if (~choices[i].toLowerCase().indexOf(term)) matches.push(choices[i]);
+            suggest(matches);
+        }
+    });
+
     // allow modals to work
     $('.modal-trigger').leanModal();
     // show or hide appropriate elements
