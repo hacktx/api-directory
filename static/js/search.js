@@ -48,7 +48,7 @@ $(document).ready(function() {
 
     new autoComplete({
         selector: 'input[name="query"]',
-        minChars: 2,
+        minChars: 1,
         source: function(term, suggest){
             term = term.toLowerCase();
             var matches = [];
