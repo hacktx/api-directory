@@ -1,0 +1,251 @@
+{
+    "apis": {
+        "mongodb": {
+            "name": "MongoDB",
+            "image": "mongodb.png",
+            "description": "MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas.",
+            "link": "https://docs.mongodb.com/",
+            "keywords": ["mongo", "db", "database", "nosql", "storage", "json", "document", "shell", "node.js", "node", "javascript", "js", "python", "c++", "java", "c#", "ruby"],
+            "chip_keywords": ["nosql", "storage", "Node.JS"]
+        },
+        "elastic": {
+            "name": "Elastic",
+            "image": "elastic.png",
+            "description": "Elastic believes getting immediate, actionable insight from data matters. As the company behind the open source projects — Elasticsearch, Logstash, Kibana, and Beats — designed to take data from any source and search, analyze, and visualize it in real time, Elastic is helping people make sense of data. From stock quotes to Twitter streams, Apache logs to WordPress blogs, our products are extending what's possible with data, delivering on the promise that good things come from connecting the dots.",
+            "link": "https://www.elastic.co/guide/en/elasticsearch/client/java-api/current/index.html",
+            "keywords": ["search", "elasticsearch", "java", "hadoop", "file", "files"],
+            "chip_keywords": ["search", "Java", "Hadoop"]
+        },
+        "capitalone": {
+            "name": "Capital One",
+            "image": "capital-one.png",
+            "description": "Nessie is Capital One’s Hackathon API that gives you access to a multitude of real public-facing data - such as ATM and bank branch locations - along with mock customer account data. Use HTTP requests to set up peer-to-peer transactions, simulate a weekly paycheck, or even schedule bills for customers! This is all structured in a way that resembles how we actually run things here at Capital One.",
+            "link": "http://api.reimaginebanking.com/",
+            "keywords": ["finance", "money", "financial", "banking", "data", "atm", "bank", "account", "transaction", "transactions", "bills", "nessie", "ios", "android", "ruby", "gem", "javascript", "rest", "restful", "jquery", "capital", "one"],
+            "chip_keywords": ["REST", "banking", "jQuery"]
+        },
+        "twilio": {
+            "name": "Twilio",
+            "image": "twilio.png",
+            "description": "Use promo code HackTX2016 for $25 credit.\nTwilio is a cloud communications platform that gives you building blocks to add messaging, voice, and video in your web and mobile applications.",
+            "link": "https://www.twilio.com/docs/",
+            "keywords": ["sms", "voice", "video", "ip", "messaging", "call", "calls", "communication", "programmable", "program", "c#", "java", "node", "node.js", "nodejs", "javascript", "php", "python", "ruby", "android", "objective-c", "swift", "ios", "mobile"],
+            "chip_keywords": ["sms", "voice", "messaging"]
+        },
+        "digitalocean": {
+            "name": "Digital Ocean",
+            "image": "digital-ocean.png",
+            "description": "The DigitalOcean API allows you to manage Droplets and resources within the DigitalOcean cloud in a simple, programmatic way using conventional HTTP requests. The endpoints are intuitive and powerful, allowing you to easily make calls to retrieve information or to execute actions.",
+            "link": "https://developers.digitalocean.com/",
+            "keywords": ["cloud", "computing", "rest", "restful", "control", "panel", "oauth", "authentication", "metadata", "data", "ruby", "go", "laravel", "php", "python", ".net", "node", "node.js", "javascript", "scala", "java", "ios", "perl", "storage", "distributed", "digital", "ocean"],
+            "chip_keywords": ["REST", "OAuth", "cloud computing"]
+        },
+        "microsoft": {
+            "name": "Microsoft",
+            "image": "microsoft.png",
+            "description": "Comprehensive API reference for working with Microsoft tools, services, and technologies. Whether you're building apps, developing websites, or working with the cloud, you'll find detailed syntax, code snippets, and best practices.\nFor more information about Azure, visit <a target='_blank' href='https://aka.ms/azure.all'>aka.ms/azure.all</a>.",
+            "link": "https://aka.ms/api.lib",
+            "keywords": ["windows", ".net", "azure", "kinect", "rest", "restful", "bing", "maps", "search", "ads", "ad", "yammer", "visual", "studio", "onedrive", "onenote", "office", "calendar", "contacts", "discovery", "service", "authentication", "graph", "sql", "media", "mobile", "notification", "notifications", "documentdb", "skype", "files", "file", "client", "server", "c#", "c++", "cloud", "computing", "website", "websites"],
+            "chip_keywords": ["Azure", ".NET", "cloud computing"]
+        },
+        "rapidapi": {
+            "name": "RapidAPI",
+            "image": "rapidapi.jpg",
+            "description": "RapidAPI let's developers create a fully functional backend for their app. We have turned every function from sending a text message to storing a file is a block, and all developers need to do is to drag-n-drop.\n\t\tRapidAPI lives in the cloud, so any backend created with RapidAPI is automatically hosted online. That way, our users don’t have to worry about deploying and maintaining their apps - a process known to be time consuming, where mistakes cause long downtimes. Also, because we use state of the art servers in multiple datacenters around the world, users enjoy best in class performance out if the box.\n\t\tRapidAPI is also very easy to integrate in the app/website. Since RapidAPI uses a REST api for communications, users don’t have to install any special libraries, and can use RapidAPI with any platform. Moreover, RapidAPI automatically generates code snippets to be copy and pasted into the front-end.",
+            "link": "http://rapidapi.com",
+            "keywords": ["apis", "api", "directory", "more", "rest", "restful", "any", "language", "sdk", "rapid", "a16z", "andreesen", "horowitz"],
+            "chip_keywords": ["REST", "APIs", "more APIs"]
+        },
+        "facebook": {
+            "name": "Facebook",
+            "image": "fb.png",
+            "description": "Connect on a global scale.\nBuild, grow and monetize your apps with Facebook.",
+            "link": "https://developers.facebook.com/",
+            "keywords": ["social", "fb", "graph", "login", "messenger", "analytics", "sharing", "share", "sdk", "android", "ios", "mobile", "swift", "react", "javascript", "php", "tvos", "unity", "atlas", "graph", "app", "apps", "game", "games", "marketing", "ad", "ads", "instagram", "oculus"],
+            "chip_keywords": ["Facebook", "Messenger", "Apps"]
+        },
+        "indeed": {
+            "name": "Indeed",
+            "image": "indeed.png",
+            "description": "The Indeed API is the same API which powers our mobile website. You can search for jobs, results are returned as JSON or XML.",
+            "link": "https://ads.indeed.com/jobroll/xmlfeed",
+            "keywords": ["job", "jobs", "search", "json", "xml", "rest", "restful"],
+            "chip_keywords": ["jobs", "search", "JSON"]
+        },
+        "bluechasm": {
+            "name": "BlueChasm",
+            "image": "markiii.png",
+            "description": "BlueChasm is providing its weather API for its Weather and Community Challenge.",
+            "link": "http://cdn2.hubspot.net/hubfs/1686797/Weather%20API%20Documentation.pdf",
+            "keywords": ["ibm", "mark", "markiii", "iii", "weather", "api", "prize", "prizes"],
+            "chip_keywords": ["BlueChasm", "API Prize", "weather"]
+        }
+    },
+    "challenges": {
+        "bloomberg": {
+            "name": "Bloomberg Puzzles",
+            "image": "bloomberg.png",
+            "description": "Bloomberg puzzles will be a series of brain teasers held throughout HackTX. Visit the Bloomberg table to learn more!",
+            "prizes": {
+                "First Person to Solve Each Puzzle": "???"
+            },
+            "keywords": ["brain", "teasers", "prize", "prizes"],
+            "chip_keywords": ["Bloomberg", "brain teasers", "prizes"]
+        },
+        "microsoft": {
+            "name": "Microsoft",
+            "image": "microsoft.png",
+            "description": "Visit the Microsoft booth for more information! Build with one of our technologies. You can find more resources at <a href='http://microsofthackers.github.io'>microsofthackers.github.io</a> and <a href='http://aka.ms/api.lib'>aka.ms/api.lib</a>.",
+            "link": "http://microsofthackers.github.io",
+            "prizes": {
+                "Best Use of Microsoft Technology": "One Surface Pro 4 + Type Cover for each member of the winning team"
+            },
+            "keywords": ["windows", "office", "azure", "kinect", "bing", "surface", "pro", "4", "cover", "type", "api", "prize"],
+            "chip_keywords": ["Microsoft", "API Prize", "Surface Pro 4"]
+        },
+        "quantlab": {
+            "name": "Quantlab Financial",
+            "image": "quantlab-financial.png",
+            "description": "Quantlab is an established, successful automated proprietary trading firm where talented minds go to attack interesting, challenging problems. We’re different, both culturally and structurally, from a typical trading firm. The attitude here is collaborative, not cutthroat. Decisions are driven by science and technology. We trade our own money, so there’s no selling. No customers. No distractions. Researchers focus on research. Technologists focus on technology. And brilliance is supported, celebrated and rewarded.",
+            "prizes": {
+                "Best Use of Statistics": "Drones!!!"
+            },
+            "keywords": ["drones", "statistics", "probability", "stats", "finance", "financial"],
+            "chip_keywords": ["Quantlab Financial", "statistics", "drones"]
+        },
+        "rapidapi": {
+            "name": "RapidAPI",
+            "image": "rapidapi.jpg",
+            "description": "RapidAPI let's developers create a fully functional backend for their app. We have turned every function from sending a text message to storing a file is a block, and all developers need to do is to drag-n-drop.\n\t\tRapidAPI lives in the cloud, so any backend created with RapidAPI is automatically hosted online. That way, our users don’t have to worry about deploying and maintaining their apps - a process known to be time consuming, where mistakes cause long downtimes. Also, because we use state of the art servers in multiple datacenters around the world, users enjoy best in class performance out if the box.\n\t\tRapidAPI is also very easy to integrate in the app/website. Since RapidAPI uses a REST api for communications, users don’t have to install any special libraries, and can use RapidAPI with any platform. Moreover, RapidAPI automatically generates code snippets to be copy and pasted into the front-end.",
+            "prizes": {
+                "Best Use of APIs through RapidAPI": "Drones!!!"
+            },
+            "keywords": ["drones", "api", "apis", "a16z", "andreesen", "horowitz", "best", "use", "of", "through"],
+            "chip_keywords": ["RapidAPI", "drones"]
+        },
+        "1517": {
+            "name": "1517",
+            "image": "1517.png",
+            "prizes": {
+                "Best Hack that Teams Really Need to Keep Building on Post Weekend": "Three $1000 grants"
+            },
+            "keywords": ["money", "grant", "grants", "$1000", "1000", "cash", "three"],
+            "chip_keywords": ["1517", "grants"]
+        },
+        "facebook": {
+            "name": "Facebook",
+            "image": "fb.png",
+            "description": "Facebook's mission is to make the world more Open and Connected.",
+            "prizes": {
+                "Best Open and Connected Hack": "Oculus Rift Development Kit 2 for each member of the winning team. In addition, Facebook will be flying out the winning team to their Global Hackathon (Expenses paid with additional information to come later)."
+            },
+            "keywords": ["oculus", "rift", "development", "kit", "2", "best", "open", "and", "connected", "hack"],
+            "chip_keywords": ["Best Open and Connected Hack", "Oculus Rift"]
+        },
+        "mongodb": {
+            "name": "MongoDB",
+            "image": "mongodb.png",
+            "description": "MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemas.",
+            "prizes": {
+                "Best Use of MongoDB": "Amazon Gift Cards"
+            },
+            "keywords": ["mongo", "db", "amazon", "gift", "cards", "fb", "api", "prize", "rpizes"],
+            "chip_keywords": ["MongoDB", "Api Prize", "Amazon Gift Cards"]
+        },
+        "bluechasm": {
+            "name": "BlueChasm",
+            "image": "markiii.png",
+            "description": "Come visit our table to learn more about BlueChasm, attempt our 2 challenges listed in the link, and get a FREE t-shirt!",
+            "link": "http://bit.ly/BChacktx",
+            "prizes": {
+                "Weather and Community Challenge": "Bloomsky Personal Weather Station",
+                "Best Use of Blockchain": "HyperX Cloud Stinger Gaming Headset"
+            },
+            "keywords": ["ibm", "markiii", "mark", "iii", "api", "prize", "prizes", "bloomsky", "personal", "weather", "station", "blockchain", "and", "community", "challenge", "best", "use", "of", "t-shirt", "tshirt", "hyperx", "cloud", "stinger", "gaming", "headset"],
+            "chip_keywords": ["API Prize", "Weather Station", "Gaming Headset"]
+        },
+        "mlh": {
+            "name": "MLH",
+            "image": "mlh-logo-color.svg",
+            "description": "#HackHarassment:\nUse your tech skills for good and hack online harassment. Build a software solution that can help reduce the frequency and/or severity of online harassment.\nWatch Dogs® 2 Best Device Privacy Hack:\nEverything is part of the internet of things now - from your phone to your fitness band to your thermostat. Build a hack that utilizes private data being collected from your devices, and show how you can turn potential vulnerabilities into something constructive.\nAmazon Web Services: - Best Use of AWS:\nThe best use of AWS will win 1 TB hard drives.\nBest Domain Name from Domain.com:\nThe team with the best domain name will win domain.com swag bags.",
+            "prizes": {
+                "#HackHarassment": "HackHarassment swag bag",
+                "Watch Dogs® 2 Best Device Privacy Hack": "Watch Dogs® 2 for each winning team member.",
+                "Best Use of AWS": "1 TB Hard Drives",
+                "Best Domain Name from Domain.com": "Domain.com swag bags"
+            },
+            "keywords": ["major", "league", "hacking", "harassment", "good", "online", "swag", "bag", "bags", "hackharassment", "#hackharassment", "watch", "dogs", "internet", "of", "things", "private", "privacy", "data", "vulnerability", "vulnerabilities", "amazon", "aws", "cloud", "computing", "infrastructure", "compute", "storage", "database", "networking", "developer", "tools", "1", "tb", "hard", "drives", "drive", "api", "prize", "prizes", "domain", "domain.com", "name", "dns", "web", "hosting", "vps", "email", "ssl", "certificates", "design", "online", "marketing", "services", "url", "forwarding", "transfer", "lock", "total", "management"],
+            "chip_keywords": ["HackHarassment", "Privacy", "AWS", "Domains"]
+        },
+        "squareroot": {
+            "name": "Square Root",
+            "image": "squareroot.png",
+            "description": "At Square Root, we believe data should lead to action. We want to know how your project will actually change a user's behavior. The best example of how data can change behavior will win $500 towards Amazon Web Services (AWS) for their team. To learn more about Square Root and our philosophy around data + action visit our blog.",
+            "link": "http://square-root.com/2016/02/data-chasers-challenge",
+            "prizes": {
+                "Most Likely to Change Behavior": "$500 AWS Credit"
+            },
+            "keywords": ["square", "root", "data", "action", "most", "likely", "to", "change", "behavior", "users", "user", "aws", "amazon", "web", "services", "data", "chasers", "challenge", "credit", "500", "$500"],
+            "chip_keywords": ["Square Root", "data", "AWS Credit"]
+        },
+        "qualtrics": {
+            "name": "Qualtrics",
+            "image": "qualtrics.png",
+            "description": "We want to see what you can do with insights! Create a project using data visualization that leads to a meaningful call to action.",
+            "prizes": {
+                "Best Use of Data Visualization": "Snowboard/longboard/or mountain bike for each member of the team"
+            },
+            "keywords": ["best", "use", "of", "data", "visualization", "snowboard", "longboard", "mountain", "bike", "outdoors"],
+            "chip_keywords": ["Qualtrics", "data visualization", "snowboard"]
+        },
+        "goldmansachs": {
+            "name": "Goldman Sachs",
+            "image": "goldman.png",
+            "description": "Prize will be awarded to the project with the best overall user experience.",
+            "prizes": {
+                "Best UX": "4 Fitbits"
+            },
+            "keywords": ["goldman", "sachs", "best", "ux", "user", "experience", "fitbit", "fitbits"],
+            "chip_keywords": ["Goldman Sachs", "Best UX", "Fitbit"]
+        },
+        "hbk": {
+            "name": "HBK Capital Management",
+            "image": "hbk.png",
+            "description": "Just impress us.",
+            "prizes": {
+                "HBK That's So Money Prize of Awesomeness": "$100 Amazon gift certificate for each member of the winning team."
+            },
+            "keywords": ["capital", "management", "that's", "so", "money", "prize", "of", "awesome", "awesomeness", "anything", "$100", "100", "amazon", "gift", "certificate", "any", "every"],
+            "chip_keywords": ["HBK", "awesome", "Amazon gift certificate"]
+        },
+        "mantech": {
+            "name": "ManTech",
+            "image": "mantech.png",
+            "description": "Go to <a href='http://hackcoes.com'>hackcoes.com</a> to compete in the mini CTF.",
+            "prizes": {
+                "Mantech Mini CTF": "TBA"
+            },
+            "keywords": ["capture", "the", "flag", "ctf", "mini", "prize", "prizes"],
+            "chip_keywords": ["ManTech", "CTF"]
+        },
+        "cdk": {
+            "name": "CDK Global",
+            "image": "cdk.png",
+            "description": "Change the car buying experience! The Evolution Award will be given to team(s) whose project(s) work to evolve the automotive retail experience.",
+            "prizes": {
+                "CDK Global's Evolution Award": "Mini drones! The number of awards and prizes will be determined by team size."
+            },
+            "keywords": ["global", "car", "buying", "experience", "evolution", "automotive", "retail", "award", "global's", "mini", "drones"],
+            "chip_keywords": ["CDK Global", "Car Buying Experience", "Mini Drones"]
+        },
+        "janestreet": {
+            "name": "Jane Street",
+            "image": "janestreet.png",
+            "prizes": {
+                "Keep Austin Weird": "something weird"
+            },
+            "keywords": ["jane", "street", "keep", "austin", "weird", "something", "ostrich", "pillow"],
+            "chip_keywords": ["Jane Street", "Keep Austin Weird"]
+        }
+    }
+}
