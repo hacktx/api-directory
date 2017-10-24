@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block title %}HackTX API Directory{% endblock %}
+    <script src="{{ url_for('static', filename='js/jquery.validate.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/validate.js') }}"></script>
+
+
+    {% block content %}
+    <div class="center col-md-4 col-md-offset-4">
+        <h1>{{ config.HACKATHON_NAME }} API-Directory</h1>
+        <p>Welcome to the </p>
+        <form method="POST" action="" id="apis">
+            <input type="text" placeholder="Company Name" name="company_name">
+            <input type="text" placeholder="Link" name="link">
+            <div class="col-md-6 form-info">
+                <p>Please input image name. Make sure it's in the /img/partners directory Ex. capital-one.jpg</p>
+            </div>
+            <input type="text" placeholder="Image Name" name="image">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <select name="search_keywords" multiple class="chosen-select" data-placeholder="Search Keywords">
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <select name="chip_keywords" multiple class="chosen-select" data-placeholder="CS Keywords">
+                    </select>
+                </div>
+            </div>
+            <textarea placeholder="Description" name="description" style="width:250px;"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+
+        <form method="POST" action="" id="apis">
+            <input type="text" placeholder="Name" name="Name">
+            <textarea placeholder="Description" name="description" style="width:250px;"></textarea>
+            <input type="text" placeholder="Gender" id="input_gender" name="gender_other" style="display: none;"/>
+            <div class="row">
+                <h3 {% if required %}class="required"{% endif %}>Image Directory</h3>
+                <div class="col-md-6 form-info">
+                    <p>Please input image name. Make sure it's in the /img/partners directory Ex. capital-one.jpg</p>
+                </div>
+                <div class="col-md-6">
+                    <input type="file" name="resume" accept="application/pdf" {% if required %}aria-required="true"
+                           required{% endif %}>
+                </div>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+{% endblock %}
