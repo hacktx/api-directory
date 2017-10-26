@@ -1,5 +1,6 @@
 from flask import Flask
 from flask import jsonify
+from flask import request
 from flask import make_response
 from flask import render_template
 import json
@@ -12,7 +13,8 @@ data = json.loads(open('data.json', 'r').read())
 
 @app.route('/')
 def index_page():
-    return render_template('index.html', apis=data['apis'], challenges=data['challenges'])
+	if request.method == 'GET':
+    	return render_template('index.html', apis=data['apis'], challenges=data['challenges'])
 
 @app.route('/data.json')
 def data_json():
