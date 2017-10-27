@@ -21,7 +21,7 @@ python -m flask run
 ```
 You should then be able to access a web interface to input the API and Challenges for the companies.
 
-IMPORTANT: Please make sure to upload your image files to the /app/static/img/ files directory so that the company
+IMPORTANT: Please make sure to upload your image files to the /app/static/img/ files directory so that the company image will show.
 
 Sometimes, you will be unable to quit your instance. In order to kill the instance, make sure to do
 ```bash
@@ -43,4 +43,3 @@ python freezer.py
 ```
 This will populate the data.json file outside of /app and update index.html to contain all the api and challenge information.
 
-## Kill an instance
