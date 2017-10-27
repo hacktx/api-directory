@@ -2,31 +2,39 @@
 {% block title %}HackTX API Directory{% endblock %}
     <script src="{{ url_for('static', filename='js/jquery.validate.min.js') }}"></script>
     <script src="{{ url_for('static', filename='js/validate.js') }}"></script>
+    <script>
+        $(document).keypress(
+            function(event){
+             if (event.which == '13') {
+                event.preventDefault();
+              }
+        });
+    </script>
 
 
     {% block content %}
     <div class="center col-md-4 col-md-offset-4">
         <h1>{{ config.HACKATHON_NAME }} API-Directory</h1>
         <h2>Api Form Input</h2>
-        <form method="POST" action="" id="apis">">
+        <form method="POST" action="" id="apis-form">">
             <div class="col-md-6 form-info">
                 <p>Company's Name</p>
             </div>
-            <input type="text" placeholder="Company Name" name="company_name">
+            <input class="required" type="text" placeholder="Company Name" name="company_name">
             <div class="col-md-6 form-info">
                 <p>Link of Company</p>
             </div>
-            <input type="text" placeholder="Link" name="link">
+            <input  class="required" type="text" placeholder="Link" name="link">
             <div class="col-md-6 form-info">
                 <p>Please input image name. Make sure it's in the /img/partners directory Ex. capital-one.jpg</p>
             </div>
-            <input type="text" placeholder="Image Name" name="image">
+            <input class="required" type="text" placeholder="Image Name" name="image">
             <div class="row">
                 <div class="col-md-6 form-info">
                     <p>Input key words for search.</p>
                 </div>
                 <div class="col-md-6 col-md-offset-3">
-                    <input type="text" placeholder="Search Keywords" name="search_keywords">
+                    <input class="required" type="text" placeholder="Search Keywords" name="search_keywords">
                     <select name="search_keywords" multiple class="chosen-select" data-placeholder="Search Keywords">
                     </select>
                 </div>
@@ -35,36 +43,36 @@
                 <div class="col-md-6 form-info">
                     <p>Input at most 5 words from search keywords above.</p>
                 </div>
-                    <input type="text" placeholder="CS Keywords" name="chip_keywords">
+                    <input class="required" type="text" placeholder="CS Keywords" name="chip_keywords">
                     <select name="chip_keywords" multiple class="chosen-select" data-placeholder="CS Keywords">
                     </select>
                 </div>
             </div>
-            <p>Input at most 5 words from search keywords above.</p>
-            <textarea placeholder="Description" name="description" style="width:250px;"></textarea>
+            <p>Company Description</p>
+            <input class="required" type="text" placeholder="Description" name="description">
             <button type="submit" name="button" value="apis">Create API</button>
         </form>
 
         <h2>Challenge Form Input</h2>
-        <form method="POST" action="" id="challenges">
+        <form method="POST" action="" id="challenges-form">
             <div class="col-md-6 form-info">
                 <p>Company's Name</p>
             </div>
-            <input type="text" placeholder="Company Name" name="company_name">
+            <input class="required" type="text" placeholder="Company Name" name="company_name">
             <div class="col-md-6 form-info">
                 <p>Link of Company</p>
             </div>
-            <input type="text" placeholder="Link" name="link">
+            <input class="required" type="text" placeholder="Link" name="link">
             <div class="col-md-6 form-info">
                 <p>Please input image name. Make sure it's in the /img/partners directory Ex. capital-one.jpg</p>
             </div>
-            <input type="text" placeholder="Image Name" name="image">
+            <input class="required" type="text" placeholder="Image Name" name="image">
             <div class="row">
                 <div class="col-md-6 form-info">
                     <p>Input key words for search.</p>
                 </div>
                 <div class="col-md-6 col-md-offset-3">
-                    <input type="text" placeholder="Search Keywords" name="search_keywords">
+                    <input class="required" type="text" placeholder="Search Keywords" name="search_keywords">
                     <select name="search_keywords" multiple class="chosen-select" data-placeholder="Search Keywords">
                     </select>
                 </div>
@@ -73,15 +81,15 @@
                 <div class="col-md-6 form-info">
                     <p>Input at most 5 words from search keywords above.</p>
                 </div>
-                    <input type="text" placeholder="CS Keywords" name="chip_keywords">
+                    <input class="required" type="text" placeholder="CS Keywords" name="chip_keywords">
                     <select name="chip_keywords" multiple class="chosen-select" data-placeholder="CS Keywords">
                     </select>
                 </div>
             </div>
             <p>Prize Name</p>
-            <textarea placeholder="Prize Name" name="prize_name" style="width:250px;"></textarea>
+            <input class="required" type="text" placeholder="Prize Name" name="prize_name">
             <p>Prize</p>
-            <input type="text" placeholder="Prize" name="prize">
+            <input class="required" type="text" placeholder="Prize" name="prize">
             <button type="submit" name="button" value="challenges">Create Challenges</button>
         </form>
     </div>

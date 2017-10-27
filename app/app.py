@@ -13,8 +13,7 @@ data = json.loads(open('data.json', 'r').read())
 
 @app.route('/')
 def index_page():
-	if request.method == 'GET':
-    	return render_template('index.html', apis=data['apis'], challenges=data['challenges'])
+	return render_template('index.html', apis=data['apis'], challenges=data['challenges'])
 
 @app.route('/data.json')
 def data_json():

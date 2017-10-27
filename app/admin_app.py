@@ -2,6 +2,7 @@ from flask import Flask
 from flask import jsonify
 from flask import make_response
 from flask import render_template
+from flask import request
 import json
 
 app = Flask(__name__)
@@ -10,64 +11,64 @@ app.config.from_pyfile('settings.py')
 # read json data
 data = json.loads(open('data.json', 'r').read())
 
-@app.route('/', 'dashboard')
+@app.route('/', methods=['GET', 'POST'])
 def index_page():
     if request.method == 'GET':
-    	return render_template('form.html', apis=data['apis'], challenges=data['challenges'])
-	else:
+		return render_template('form.html')
+    else:
         val = request.form.get('button')
         if val == 'apis':
             return apis(request)
         elif val == 'challenges':
             return challenges(request)
         else:
-            return redirect(url_for('dashboard'))
+			return render_template('form.html')
 
 def apis(request):
 	api_info = {
-		request.form.get('company_name'): {
-			'name':request.form.get('company_name'),
-			'image': request.form.get('image'),
-			'description': request.form.get('description'),
-			'link': request.form.get('link'),
-			'keywords': [request.form.get('search_keywords')],
-			'chip_keywords': [request.form.get('chip_keywords')]
-			,
-			'prizes': {
-				request.form.get('prize_name') : request.form.get('prize')
-			}
-		}
+		'name':request.form.get('company_name'),
+		'image': request.form.get('image'),
+		'description': request.form.get('description'),
+		'link': request.form.get('link'),
+		'keywords': [request.form.get('search_keywords')],
+		'chip_keywords': [request.form.get('chip_keywords')]
+		,
 	}
+	update_api_json(api_info)
+	return render_template('form.html')
+
 
 def challenges(request):
 	challenge_info = {
-		request.form.get('company_name'): {
-			'name':request.form.get('company_name'),
-			'image': request.form.get('image'),
-			'description': request.form.get('description'),
-			'link': request.form.get('link'),
-			'keywords': [request.form.get('search_keywords')],
-			'chip_keywords': [request.form.get('chip_keywords')]
-			,
+		'name':request.form.get('company_name'),
+		'image': request.form.get('image'),
+		'description': request.form.get('description'),
+		'link': request.form.get('link'),
+		'keywords': [request.form.get('search_keywords')],
+		'chip_keywords': [request.form.get('chip_keywords')]
+		,
+		'prizes': {
+			request.form.get('prize_name') : request.form.get('prize')
 		}
 	}
 	update_challenge_json(challenge_info)
-	return redirect(url_for('dashboard'))
+	return render_template('form.html')
 
-	update_api_json(api_info)
-	return redirect(url_for('dashboard'))	
 
 def update_challenge_json(challenge_info):
 	with open('data.json') as f:
-    	data = json.load(f)
-	data["challenges"].append({'b':'2'})
+		data = json.load(f)
+	data["challenges"][challenge_info['name']] = challenge_info
+	with open('data.json', 'w') as f:
+	    json.dump(data, f, indent=4, sort_keys=True)
 
 
 def update_api_json(api_info):
 	with open('data.json') as f:
-    	data = json.load(f)
-	data["apis"].append({'b':'2'})
-	
+		data = json.load(f)
+	data["apis"][api_info['name']] = api_info
+	with open('data.json', 'w') as f:
+	    json.dump(data, f,indent=2, sort_keys=True)
 
 
 @app.route('/data.json')
