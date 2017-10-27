@@ -13,15 +13,15 @@ data = json.loads(open('data.json', 'r').read())
 
 @app.route('/', methods=['GET', 'POST'])
 def index_page():
-    if request.method == 'GET':
+	if request.method == 'GET':
 		return render_template('form.html')
-    else:
-        val = request.form.get('button')
-        if val == 'apis':
-            return apis(request)
-        elif val == 'challenges':
-            return challenges(request)
-        else:
+	else:
+		val = request.form.get('button')
+		if val == 'apis':
+		    return apis(request)
+		elif val == 'challenges':
+		    return challenges(request)
+		else:
 			return render_template('form.html')
 
 def apis(request):
