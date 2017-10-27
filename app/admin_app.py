@@ -30,8 +30,8 @@ def apis(request):
 		'image': request.form.get('image'),
 		'description': request.form.get('description'),
 		'link': request.form.get('link'),
-		'keywords': request.form.get('search_keywords').split(','),
-		'chip_keywords': request.form.get('chip_keywords').split(',')
+		'keywords': [keyword.strip() for keyword in request.form.get('search_keywords').split(',')],
+		'chip_keywords': [keyword.strip() for keyword in request.form.get('chip_keywords').split(',')]
 		,
 	}
 	update_api_json(api_info)
@@ -43,8 +43,8 @@ def challenges(request):
 		'name':request.form.get('company_name'),
 		'image': request.form.get('image'),
 		'link': request.form.get('link'),
-		'keywords': request.form.get('search_keywords').split(','),
-		'chip_keywords': request.form.get('chip_keywords').split(',')
+		'keywords': [keyword.strip() for keyword in request.form.get('search_keywords').split(',')],
+		'chip_keywords': [keyword.strip() for keyword in request.form.get('chip_keywords').split(',')]
 		,
 		'prizes': {
 			request.form.get('prize_name') : request.form.get('prize')
