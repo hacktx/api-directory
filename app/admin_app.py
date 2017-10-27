@@ -30,8 +30,8 @@ def apis(request):
 		'image': request.form.get('image'),
 		'description': request.form.get('description'),
 		'link': request.form.get('link'),
-		'keywords': [request.form.get('search_keywords')],
-		'chip_keywords': [request.form.get('chip_keywords')]
+		'keywords': request.form.get('search_keywords').split(','),
+		'chip_keywords': request.form.get('chip_keywords').split(',')
 		,
 	}
 	update_api_json(api_info)
@@ -42,10 +42,9 @@ def challenges(request):
 	challenge_info = {
 		'name':request.form.get('company_name'),
 		'image': request.form.get('image'),
-		'description': request.form.get('description'),
 		'link': request.form.get('link'),
-		'keywords': [request.form.get('search_keywords')],
-		'chip_keywords': [request.form.get('chip_keywords')]
+		'keywords': request.form.get('search_keywords').split(','),
+		'chip_keywords': request.form.get('chip_keywords').split(',')
 		,
 		'prizes': {
 			request.form.get('prize_name') : request.form.get('prize')
@@ -60,7 +59,7 @@ def update_challenge_json(challenge_info):
 		data = json.load(f)
 	data["challenges"][challenge_info['name']] = challenge_info
 	with open('data.json', 'w') as f:
-	    json.dump(data, f, indent=4, sort_keys=True)
+	    json.dump(data, f, indent=2, sort_keys=True)
 
 
 def update_api_json(api_info):

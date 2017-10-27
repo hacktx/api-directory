@@ -1,17 +1,5 @@
 {
   "apis": {
-    "": {
-      "chip_keywords": [
-        ""
-      ], 
-      "description": "", 
-      "image": "", 
-      "keywords": [
-        ""
-      ], 
-      "link": "", 
-      "name": ""
-    }, 
     "capitalone": {
       "chip_keywords": [
         "REST", 
@@ -49,25 +37,5 @@
     }
   }, 
   "challenges": {
-    "1517": {
-      "chip_keywords": [
-        "1517", 
-        "grants"
-      ], 
-      "image": "1517.png", 
-      "keywords": [
-        "money", 
-        "grant", 
-        "grants", 
-        "$1000", 
-        "1000", 
-        "cash", 
-        "three"
-      ], 
-      "name": "1517", 
-      "prizes": {
-        "Best Hack that Teams Really Need to Keep Building on Post Weekend": "Three $1000 grants"
-      }
-    }
   }
 }
