@@ -34,6 +34,21 @@
       ], 
       "link": "http://api.reimaginebanking.com/", 
       "name": "Capital One"
+    }, 
+    "microsoft": {
+      "chip_keywords": [
+        "ai", 
+        "microsoft"
+      ], 
+      "description": "Infuse your apps, websites and bots with intelligent algorithms to see, hear, speak, understand and interpret your user needs through natural methods of communication.", 
+      "image": "microsoft.png", 
+      "keywords": [
+        "ai", 
+        "vision", 
+        "cloud"
+      ], 
+      "link": "https://azure.microsoft.com/en-us/services/cognitive-services/", 
+      "name": "Microsoft"
     }
   }, 
   "challenges": {}
