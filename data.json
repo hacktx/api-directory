@@ -66,5 +66,25 @@
       "name": "Microsoft"
     }
   }, 
-  "challenges": {}
+  "challenges": {
+    "citi": {
+      "chip_keywords": [
+        "citi", 
+        "banking", 
+        "finance"
+      ], 
+      "description": "We challenge you to help people get a better understanding of their financial lives through any interface you choose - you can create insights by mixing APIs, provide recommendations of better budgeting, or anything else related to personal finance. You can qualify for our prize in two ways\n1. Use Citi's APIs in any project (at developer.citi.com)\nOR\n2. Build any project that helps people with their personal finance.\nIf your project fits either criteria you are eligible to win a Raspberry Pi kit! Each member of the top two teams will receive this prize!\nAsk us questions on the #Citi channel or through any of our mentors. If you want to use our API platform, message us on Slack, chat with our mentors, or come to our booth to get login credentials as we are in closed beta.", 
+      "image": "citi.png", 
+      "keywords": [
+        "citi", 
+        "banking", 
+        "finance"
+      ], 
+      "link": "https://developer.citi.com/", 
+      "name": "Generate Consumer Insights Using Citi APIs (Citi FinTech)", 
+      "prizes": {
+        "Each Member of Top 2 Teams": "Raspberry Pi Kit"
+      }
+    }
+  }
 }
