@@ -35,6 +35,21 @@
       "link": "http://api.reimaginebanking.com/", 
       "name": "Capital One"
     }, 
+    "citi": {
+      "chip_keywords": [
+        "citi", 
+        "banking"
+      ], 
+      "description": "Citi's Developer Hub!", 
+      "image": "citi.png", 
+      "keywords": [
+        "citi", 
+        "banking", 
+        "payments"
+      ], 
+      "link": "https://developer.citi.com/", 
+      "name": "Citi"
+    }, 
     "microsoft": {
       "chip_keywords": [
         "ai", 

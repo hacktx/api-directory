@@ -49,6 +49,21 @@
       ],
       "link": "https://azure.microsoft.com/en-us/services/cognitive-services/",
       "name": "Microsoft"
+    },
+    "citi": {
+      "chip_keywords": [
+        "citi",
+        "banking"
+      ],
+      "description": "Citi's Developer Hub!",
+      "image": "citi.png",
+      "keywords": [
+        "citi",
+        "banking",
+        "payments"
+      ],
+      "link": "https://developer.citi.com/",
+      "name": "Citi"
     }
   },
   "challenges": {}
